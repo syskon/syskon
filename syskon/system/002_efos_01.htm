@@ -1,1736 +1,1736 @@
-<html xmlns:o="urn:schemas-microsoft-com:office:office"
-xmlns:w="urn:schemas-microsoft-com:office:word"
-xmlns="http://www.w3.org/TR/REC-html40">
-
-<head>
-<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
-<meta name=ProgId content=FrontPage.Editor.Document>
-<meta name=Generator content="Microsoft FrontPage 4.0">
-<meta name=Originator content="Microsoft Word 9">
-<link rel=File-List href="./002_efos_01-filer/filelist.xml">
-<title>syskon</title>
-<!--[if gte mso 9]><xml>
- <o:DocumentProperties>
-  <o:Author>Sven-Olov Flodqvist</o:Author>
-  <o:Template>SysKon.dot</o:Template>
-  <o:LastAuthor>Sven-Olov Flodqvist</o:LastAuthor>
-  <o:Revision>2</o:Revision>
-  <o:TotalTime>10</o:TotalTime>
-  <o:Created>2002-02-07T18:46:00Z</o:Created>
-  <o:LastSaved>2002-02-07T18:46:00Z</o:LastSaved>
-  <o:Pages>5</o:Pages>
-  <o:Words>1771</o:Words>
-  <o:Characters>10097</o:Characters>
-  <o:Company>Syskon</o:Company>
-  <o:Version>9.4402</o:Version>
- </o:DocumentProperties>
-</xml><![endif]--><!--[if gte mso 9]><xml>
- <w:WordDocument>
-  <w:AttachedTemplate
-   HRef="C:\Documents and Settings\sof\Application Data\Microsoft\Mallar\SysKon.dot"></w:AttachedTemplate>
-  <w:HyphenationZone>21</w:HyphenationZone>
-  <w:DoNotHyphenateCaps/>
-  <w:PunctuationKerning/>
-  <w:DisplayHorizontalDrawingGridEvery>0</w:DisplayHorizontalDrawingGridEvery>
-  <w:DisplayVerticalDrawingGridEvery>0</w:DisplayVerticalDrawingGridEvery>
-  <w:UseMarginsForDrawingGridOrigin/>
-  <w:Compatibility>
-   <w:WW6BorderRules/>
-   <w:FootnoteLayoutLikeWW8/>
-   <w:ShapeLayoutLikeWW8/>
-   <w:AlignTablesRowByRow/>
-   <w:ForgetLastTabAlignment/>
-   <w:LayoutRawTableWidth/>
-   <w:LayoutTableRowsApart/>
-  </w:Compatibility>
- </w:WordDocument>
-</xml><![endif]-->
-<style>
-<!--
- /* Font Definitions */
-@font-face
-	{font-family:Wingdings;
-	panose-1:5 0 0 0 0 0 0 0 0 0;
-	mso-font-charset:2;
-	mso-generic-font-family:auto;
-	mso-font-pitch:variable;
-	mso-font-signature:0 268435456 0 0 -2147483648 0;}
-@font-face
-	{font-family:Verdana;
-	panose-1:2 11 6 4 3 5 4 4 2 4;
-	mso-font-charset:0;
-	mso-generic-font-family:swiss;
-	mso-font-pitch:variable;
-	mso-font-signature:536871559 0 0 0 415 0;}
- /* Style Definitions */
-p.MsoNormal, li.MsoNormal, div.MsoNormal
-	{mso-style-parent:"";
-	margin:0cm;
-	margin-bottom:.0001pt;
-	mso-pagination:widow-orphan;
-	font-size:10.0pt;
-	font-family:"Times New Roman";
-	mso-fareast-font-family:"Times New Roman";}
-h1
-	{mso-style-next:Normal;
-	margin-top:6.0pt;
-	margin-right:0cm;
-	margin-bottom:36.0pt;
-	margin-left:0cm;
-	text-indent:0cm;
-	mso-pagination:widow-orphan;
-	page-break-after:avoid;
-	mso-outline-level:1;
-	mso-list:l0 level1 lfo1;
-	tab-stops:49.5pt;
-	mso-layout-grid-align:none;
-	punctuation-wrap:simple;
-	text-autospace:none;
-	border:none;
-	mso-border-bottom-alt:solid windowtext 1.5pt;
-	padding:0cm;
-	mso-padding-alt:0cm 0cm 30.0pt 0cm;
-	font-size:18.0pt;
-	font-family:"Times New Roman";
-	mso-font-kerning:14.0pt;}
-h2
-	{mso-style-next:Normal;
-	margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:12.0pt;
-	margin-left:49.3pt;
-	text-indent:-49.3pt;
-	mso-pagination:widow-orphan;
-	page-break-after:avoid;
-	mso-outline-level:2;
-	mso-list:l0 level2 lfo2;
-	tab-stops:50.4pt;
-	mso-layout-grid-align:none;
-	punctuation-wrap:simple;
-	text-autospace:none;
-	font-size:14.0pt;
-	font-family:"Times New Roman";}
-h3
-	{mso-style-next:Normal;
-	margin:0cm;
-	margin-bottom:.0001pt;
-	mso-pagination:widow-orphan;
-	page-break-after:avoid;
-	mso-outline-level:3;
-	font-size:10.0pt;
-	font-family:Verdana;
-	font-weight:normal;
-	font-style:italic;}
-p.MsoHeader, li.MsoHeader, div.MsoHeader
-	{margin:0cm;
-	margin-bottom:.0001pt;
-	mso-pagination:widow-orphan;
-	tab-stops:center 8.0cm right 16.0cm;
-	font-size:10.0pt;
-	font-family:"Times New Roman";
-	mso-fareast-font-family:"Times New Roman";}
-p.MsoBodyText, li.MsoBodyText, div.MsoBodyText
-	{margin:0cm;
-	margin-bottom:.0001pt;
-	text-align:justify;
-	mso-pagination:widow-orphan;
-	font-size:10.0pt;
-	font-family:"Times New Roman";
-	mso-fareast-font-family:"Times New Roman";}
-p.MsoBodyTextIndent, li.MsoBodyTextIndent, div.MsoBodyTextIndent
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:1.0cm;
-	margin-bottom:.0001pt;
-	mso-pagination:widow-orphan;
-	font-size:10.0pt;
-	font-family:Verdana;
-	mso-fareast-font-family:"Times New Roman";
-	mso-bidi-font-family:"Times New Roman";
-	font-style:italic;}
-a:link, span.MsoHyperlink
-	{color:blue;
-	text-decoration:underline;
-	text-underline:single;}
-a:visited, span.MsoHyperlinkFollowed
-	{color:purple;
-	text-decoration:underline;
-	text-underline:single;}
-p.NotesX, li.NotesX, div.NotesX
-	{mso-style-name:"Notes X\!";
-	margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:12.0pt;
-	margin-left:36.0pt;
-	text-indent:-36.0pt;
-	mso-pagination:widow-orphan;
-	mso-layout-grid-align:none;
-	punctuation-wrap:simple;
-	text-autospace:none;
-	font-size:10.0pt;
-	font-family:"Times New Roman";
-	mso-fareast-font-family:"Times New Roman";
-	font-style:italic;}
-p.Notes, li.Notes, div.Notes
-	{mso-style-name:"Notes\!";
-	margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:12.0pt;
-	margin-left:27.0pt;
-	text-indent:-27.0pt;
-	mso-pagination:widow-orphan;
-	mso-layout-grid-align:none;
-	punctuation-wrap:simple;
-	text-autospace:none;
-	font-size:10.0pt;
-	font-family:"Times New Roman";
-	mso-fareast-font-family:"Times New Roman";
-	font-style:italic;}
-@page Section1
-	{size:595.3pt 841.9pt;
-	margin:70.85pt 70.85pt 70.85pt 70.85pt;
-	mso-header-margin:36.0pt;
-	mso-footer-margin:36.0pt;
-	mso-paper-source:0;}
-div.Section1
-	{page:Section1;}
- /* List Definitions */
-@list l0
-	{mso-list-id:-5;
-	mso-list-template-ids:-1616350426;}
-@list l0:level1
-	{mso-level-style-link:"Rubrik 1";
-	mso-level-text:%1;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	mso-level-legacy:yes;
-	mso-level-legacy-indent:0cm;
-	mso-level-legacy-space:0cm;
-	margin-left:0cm;
-	text-indent:0cm;}
-@list l0:level2
-	{mso-level-style-link:"Rubrik 2";
-	mso-level-text:"%1\.%2";
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	mso-level-legacy:yes;
-	mso-level-legacy-indent:0cm;
-	mso-level-legacy-space:0cm;
-	margin-left:0cm;
-	text-indent:0cm;}
-@list l0:level3
-	{mso-level-text:"%1\.%2\.%3";
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	mso-level-legacy:yes;
-	mso-level-legacy-indent:0cm;
-	mso-level-legacy-space:0cm;
-	margin-left:0cm;
-	text-indent:0cm;}
-@list l0:level4
-	{mso-level-text:"%1\.%2\.%3\.%4";
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	mso-level-legacy:yes;
-	mso-level-legacy-indent:0cm;
-	mso-level-legacy-space:0cm;
-	margin-left:0cm;
-	text-indent:0cm;}
-@list l0:level5
-	{mso-level-text:"%1\.%2\.%3\.%4\.%5";
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	mso-level-legacy:yes;
-	mso-level-legacy-indent:0cm;
-	mso-level-legacy-space:0cm;
-	margin-left:0cm;
-	text-indent:0cm;}
-@list l0:level6
-	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6";
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	mso-level-legacy:yes;
-	mso-level-legacy-indent:0cm;
-	mso-level-legacy-space:0cm;
-	margin-left:0cm;
-	text-indent:0cm;}
-@list l0:level7
-	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7";
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	mso-level-legacy:yes;
-	mso-level-legacy-indent:0cm;
-	mso-level-legacy-space:0cm;
-	margin-left:0cm;
-	text-indent:0cm;}
-@list l0:level8
-	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8";
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	mso-level-legacy:yes;
-	mso-level-legacy-indent:0cm;
-	mso-level-legacy-space:0cm;
-	margin-left:0cm;
-	text-indent:0cm;}
-@list l0:level9
-	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9";
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	mso-level-legacy:yes;
-	mso-level-legacy-indent:0cm;
-	mso-level-legacy-space:0cm;
-	margin-left:0cm;
-	text-indent:0cm;}
-@list l1
-	{mso-list-id:21590694;
-	mso-list-type:hybrid;
-	mso-list-template-ids:1094755364 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
-@list l1:level1
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:36.0pt;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Symbol;
-	mso-bidi-font-family:"Times New Roman";}
-@list l1:level2
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:72.0pt;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:"Courier New";}
-@list l1:level3
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:108.0pt;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Wingdings;
-	mso-bidi-font-family:"Times New Roman";}
-@list l1:level4
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:144.0pt;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Symbol;
-	mso-bidi-font-family:"Times New Roman";}
-@list l1:level5
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:180.0pt;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:"Courier New";}
-@list l1:level6
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:216.0pt;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Wingdings;
-	mso-bidi-font-family:"Times New Roman";}
-@list l1:level7
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:252.0pt;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Symbol;
-	mso-bidi-font-family:"Times New Roman";}
-@list l1:level8
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:288.0pt;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:"Courier New";}
-@list l1:level9
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:324.0pt;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Wingdings;
-	mso-bidi-font-family:"Times New Roman";}
-@list l2
-	{mso-list-id:420299810;
-	mso-list-type:hybrid;
-	mso-list-template-ids:976123260 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
-@list l2:level1
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:36.0pt;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Symbol;
-	mso-bidi-font-family:"Times New Roman";}
-@list l2:level2
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:72.0pt;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:"Courier New";}
-@list l2:level3
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:108.0pt;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Wingdings;
-	mso-bidi-font-family:"Times New Roman";}
-@list l2:level4
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:144.0pt;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Symbol;
-	mso-bidi-font-family:"Times New Roman";}
-@list l2:level5
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:180.0pt;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:"Courier New";}
-@list l2:level6
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:216.0pt;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Wingdings;
-	mso-bidi-font-family:"Times New Roman";}
-@list l2:level7
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:252.0pt;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Symbol;
-	mso-bidi-font-family:"Times New Roman";}
-@list l2:level8
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:288.0pt;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:"Courier New";}
-@list l2:level9
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:324.0pt;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Wingdings;
-	mso-bidi-font-family:"Times New Roman";}
-@list l3
-	{mso-list-id:1458252681;
-	mso-list-type:hybrid;
-	mso-list-template-ids:-871453170 67698711 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
-@list l3:level1
-	{mso-level-number-format:alpha-lower;
-	mso-level-text:"%1\)";
-	mso-level-tab-stop:18.0pt;
-	mso-level-number-position:left;
-	margin-left:18.0pt;
-	text-indent:-18.0pt;}
-@list l3:level2
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:54.0pt;
-	mso-level-number-position:left;
-	margin-left:54.0pt;
-	text-indent:-18.0pt;}
-@list l3:level3
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:90.0pt;
-	mso-level-number-position:right;
-	margin-left:90.0pt;
-	text-indent:-9.0pt;}
-@list l3:level4
-	{mso-level-tab-stop:126.0pt;
-	mso-level-number-position:left;
-	margin-left:126.0pt;
-	text-indent:-18.0pt;}
-@list l3:level5
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:162.0pt;
-	mso-level-number-position:left;
-	margin-left:162.0pt;
-	text-indent:-18.0pt;}
-@list l3:level6
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:198.0pt;
-	mso-level-number-position:right;
-	margin-left:198.0pt;
-	text-indent:-9.0pt;}
-@list l3:level7
-	{mso-level-tab-stop:234.0pt;
-	mso-level-number-position:left;
-	margin-left:234.0pt;
-	text-indent:-18.0pt;}
-@list l3:level8
-	{mso-level-number-format:alpha-lower;
-	mso-level-tab-stop:270.0pt;
-	mso-level-number-position:left;
-	margin-left:270.0pt;
-	text-indent:-18.0pt;}
-@list l3:level9
-	{mso-level-number-format:roman-lower;
-	mso-level-tab-stop:306.0pt;
-	mso-level-number-position:right;
-	margin-left:306.0pt;
-	text-indent:-9.0pt;}
-@list l4
-	{mso-list-id:1799182175;
-	mso-list-type:hybrid;
-	mso-list-template-ids:1074165122 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
-@list l4:level1
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:36.0pt;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Symbol;
-	mso-bidi-font-family:"Times New Roman";}
-@list l4:level2
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:72.0pt;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:"Courier New";}
-@list l4:level3
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:108.0pt;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Wingdings;
-	mso-bidi-font-family:"Times New Roman";}
-@list l4:level4
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:144.0pt;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Symbol;
-	mso-bidi-font-family:"Times New Roman";}
-@list l4:level5
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:180.0pt;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:"Courier New";}
-@list l4:level6
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:216.0pt;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Wingdings;
-	mso-bidi-font-family:"Times New Roman";}
-@list l4:level7
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:252.0pt;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Symbol;
-	mso-bidi-font-family:"Times New Roman";}
-@list l4:level8
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:288.0pt;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:"Courier New";}
-@list l4:level9
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:324.0pt;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Wingdings;
-	mso-bidi-font-family:"Times New Roman";}
-@list l5
-	{mso-list-id:1896115243;
-	mso-list-type:hybrid;
-	mso-list-template-ids:409655926 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
-@list l5:level1
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:36.0pt;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Symbol;
-	mso-bidi-font-family:"Times New Roman";}
-@list l5:level2
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:72.0pt;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:"Courier New";}
-@list l5:level3
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:108.0pt;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Wingdings;
-	mso-bidi-font-family:"Times New Roman";}
-@list l5:level4
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:144.0pt;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Symbol;
-	mso-bidi-font-family:"Times New Roman";}
-@list l5:level5
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:180.0pt;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:"Courier New";}
-@list l5:level6
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:216.0pt;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Wingdings;
-	mso-bidi-font-family:"Times New Roman";}
-@list l5:level7
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:252.0pt;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Symbol;
-	mso-bidi-font-family:"Times New Roman";}
-@list l5:level8
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:288.0pt;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:"Courier New";}
-@list l5:level9
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:324.0pt;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Wingdings;
-	mso-bidi-font-family:"Times New Roman";}
-ol
-	{margin-bottom:0cm;}
-ul
-	{margin-bottom:0cm;}
--->
-</style>
-</head>
-
-<body lang=SV link=blue vlink=purple style='tab-interval:65.2pt'>
-
-<div class=Section1>
-
-<p class=MsoHeader style='tab-stops:65.2pt'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
-
-<table border=0 cellspacing=0 cellpadding=0 style='border-collapse:collapse;
- mso-padding-alt:0cm 3.5pt 0cm 3.5pt'>
- <tr>
-  <td width=614 valign=top style='width:460.6pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><b><span lang=EN-US style='font-size:8.0pt;font-family:
-  Verdana;mso-ansi-language:EN-US'>System:</span></b><span lang=EN-US
-  style='font-size:8.0pt;font-family:Verdana;mso-ansi-language:EN-US'> </span><span
-  lang=EN-US style='font-family:Verdana;mso-ansi-language:EN-US'>EFOS
-  (Economical Forcing System)<o:p></o:p></span></p>
-  <p class=MsoHeader style='tab-stops:65.2pt'><span lang=EN-US
-  style='font-family:Verdana;mso-ansi-language:EN-US'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
-  <p class=MsoNormal><b><span style='font-size:8.0pt;font-family:Verdana'>Ursprung:
-  </span></b><span style='font-family:Verdana'>Jan Wohlin, Nils-Olof
-  Lillieh&ouml;&ouml;k. Denna redog&ouml;relse baseras p&aring; en artikel av Lillieh&ouml;&ouml;k runt 1960.
-  Systemet vidareutvecklades under hela 60-talet.<o:p></o:p></span></p>
-  <p class=MsoHeader style='tab-stops:65.2pt'><span style='font-family:Verdana'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
-  <p class=MsoNormal><b><span style='font-size:8.0pt;font-family:Verdana'>Skapat
-  datum: </span></b><span style='font-family:Verdana'>Slutet av 1940-talet</span><b><span
-  style='font-size:8.0pt;font-family:Verdana'> </span></b><span
-  style='font-family:Verdana'><o:p></o:p></span></p>
-  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
-  <p class=MsoHeader style='tab-stops:65.2pt'><b><span style='font-size:8.0pt;
-  font-family:Verdana'>Syfte: </span></b><span style='font-family:Verdana'>M&aring;let
-  med EFOS &auml;r att kombinera ett naturligt system som bygger p&aring; &ouml;msesidigt
-  utbytande av information med ett som bygger p&aring; konventionella kravbud.<span
-  style="mso-spacerun: yes">  </span>Antingen utbyter spelarna information och
-  f&ouml;rs&ouml;ker tillsammans hitta b&auml;sta slutbud eller fr&aring;gar den ene spelaren
-  (kaptenen) efter upplysningar f&ouml;r att sedan sj&auml;lvsv&aring;ldigt fastst&auml;lla
-  slutbudet.<o:p></o:p></span></p>
-  <p class=MsoHeader style='tab-stops:65.2pt'><span style='font-family:Verdana'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
-  <p class=MsoHeader style='tab-stops:65.2pt'><span style='font-family:Verdana'>EFOS
-  blev 1949 godk&auml;nt f&ouml;r spel i b&aring;de internationella s&aring;v&auml;l som nationella
-  t&auml;vlingar efter att helt eller delvis varit f&ouml;rbjudet under ett par &aring;r.<span
-  style="mso-spacerun: yes">  </span>Systemet &auml;r fortfarande klassat som
-  &quot;r&ouml;tt&quot;, d v s sn&auml;ppet under giftklassen &quot;Highly Unusual Methods&quot;
-  (HUM).<span style="mso-spacerun: yes">  </span>S&aring; f&ouml;rleds icke av systemets
-  &aring;lder och de Culbertsonska dragen - under ytan hittas rel&auml;bud,
-  canapébudgivningar och sist men inte minst, superaggressiva 3-korts inkliv! <o:p></o:p></span></p>
-  <p class=MsoHeader style='tab-stops:65.2pt'><span style='font-family:Verdana'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
-  <p class=MsoHeader style='tab-stops:65.2pt'><b><span style='font-family:Verdana'>Beskrivning</span></b></p>
-  <p class=MsoNormal><i><span style='font-family:Verdana'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></i></p>
-  <p class=MsoNormal><i><span style='font-family:Verdana'>&Ouml;ppningsbud <o:p></o:p></span></i></p>
-  <p class=MsoNormal><span style='font-family:Verdana'>Handen v&auml;rderas i EFOS
-  normalt i honn&ouml;rs- och f&ouml;rdelningspo&auml;ng, d v s vad som i tidernas begynnelse
-  kallades &quot;punkter&quot;.<span style="mso-spacerun: yes"> 
-  </span>F&ouml;rdelningspo&auml;ngen r&auml;knas som 3-2-1 f&ouml;r renons-singel-dubbelton.<span
-  style="mso-spacerun: yes">  </span>Po&auml;nggr&auml;nser i detta dokument anges i &quot;punkter&quot;
-  om annat ej speciellt anges.<o:p></o:p></span></p>
-  <p class=MsoNormal><span style='font-family:Verdana'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
-  <p class=MsoNormal><span style='font-family:Verdana'>I EFOS anv&auml;nds enbart
-  naturliga 4+korts &ouml;ppningsbud och oftast i kombination med starka 2-&ouml;ppningar
-  (3-korts 1</span><span style='font-family:Symbol'>&clubs;</span><span
-  style='font-family:Verdana'>-&ouml;ppning kan i vissa EFOS-dialekter
-  f&ouml;rekomma).<span style="mso-spacerun: yes">  </span>&Ouml;ppningsbudet 1NT visar
-  balanshand och 16-18.<span style="mso-spacerun: yes">  </span><o:p></o:p></span></p>
-  <p class=MsoNormal><span style='font-family:Verdana'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
-  <p class=MsoNormal><span style='font-family:Verdana'>Eftersom &ouml;ppningshanden
-  inte vet om den fortsatta budgivningen kommer att vara naturlig eller om svarshanden
-  kommer att ta kommandot b&ouml;r &ouml;ppningshanden v&auml;lja &ouml;ppningsbud s&aring; att den
-  fortsatta budgivingen - om svarshanden v&auml;ljer att kr&auml;va med rel&auml;budet - blir
-  s&aring; informativ som m&ouml;jligt.<o:p></o:p></span></p>
-  <p class=MsoNormal><span style='font-family:Verdana'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
-  <ul style='margin-top:0cm' type=disc>
-   <li class=MsoNormal style='mso-list:l2 level1 lfo3;tab-stops:list 36.0pt'><span
-       style='font-family:Verdana'>Med svag &ouml;ppningshand (mindre &auml;n ca 18
-       punkter) och 4-5 i tv&aring; n&auml;rliggande f&auml;rger b&ouml;r man - oavsett f&auml;rgl&auml;ngd -
-       v&auml;lja att &ouml;ppna i den h&ouml;gre.<o:p></o:p></span></li>
-   <li class=MsoNormal style='mso-list:l2 level1 lfo3;tab-stops:list 36.0pt'><span
-       style='font-family:Verdana'>Med tv&aring; lika l&aring;nga, ej n&auml;rliggande (ex </span><span
-       style='font-family:Symbol'>&spades;<span style='color:red'>&diams;</span></span><span
-       style='font-family:Verdana'>), 4+kortsf&auml;rger &ouml;ppnas med den l&auml;gre <o:p></o:p></span></li>
-   <li class=MsoNormal style='mso-list:l2 level1 lfo3;tab-stops:list 36.0pt'><span
-       style='font-family:Verdana'>Med tv&aring; lika l&aring;nga n&auml;rliggande 4+kortsf&auml;rger
-       &ouml;ppnas med den h&ouml;gre (med 5-5 i </span><span style='font-family:Symbol'>&clubs;&spades;
-       </span><span style='font-family:Verdana'>&ouml;ppnas dock med 1</span><span
-       style='font-family:Symbol'>&clubs;</span><span style='font-family:Verdana'>).<o:p></o:p></span></li>
-   <li class=MsoNormal style='mso-list:l2 level1 lfo3;tab-stops:list 36.0pt'><span
-       style='font-family:Verdana'>Med 4441 &ouml;ppnas med f&auml;rgen under singelton.<o:p></o:p></span></li>
-   <li class=MsoNormal style='mso-list:l2 level1 lfo3;tab-stops:list 36.0pt'><span
-       style='font-family:Verdana'>Med 4-5 i </span><span style='font-family:
-       Symbol;color:red'>&hearts;</span><span style='font-family:Verdana'>-</span><span
-       style='font-family:Symbol'>&clubs;</span><span style='font-family:Verdana'><span
-       style="mso-spacerun: yes">  </span>&ouml;ppnas alltid med 1</span><span
-       style='font-family:Symbol;color:red'>&hearts;</span><span style='font-family:
-       Verdana'>.<o:p></o:p></span></li>
-  </ul>
-  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
-  <p class=MsoNormal><i><span style='font-family:Verdana'>Svarsbud<o:p></o:p></span></i></p>
-  <p class=MsoNormal><span style='font-family:Verdana'>Svarshanden kan antingen
-  visa sin hand t&auml;mligen naturligt eller kr&auml;va med n&auml;rmaste f&auml;rgbud (2</span><span
-  style='font-family:Symbol'>&clubs; </span><span style='font-family:Verdana'>p&aring; 1</span><span
-  style='font-family:Symbol'>&spades;</span><span style='font-family:Verdana'>).<span
-  style="mso-spacerun: yes">  </span>2-&ouml;ver-1 kan avges p&aring; svaga kort f&ouml;rutsatt
-  att f&auml;rgen &auml;r minst 6-korts.<span style="mso-spacerun: yes"> 
-  </span>Uppspaltat &auml;r svarsbuden:</span><span style='font-size:8.0pt;
-  font-family:Verdana'><o:p></o:p></span></p>
-  </td>
- </tr>
-</table>
-
-<p class=MsoHeader style='tab-stops:65.2pt'><b><span style='font-family:Verdana'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></b></p>
-
-<table border=0 cellspacing=0 cellpadding=0 width=590 style='width:442.25pt;
- margin-left:.4pt;border-collapse:collapse;mso-padding-alt:0cm 3.5pt 0cm 3.5pt'>
- <tr>
-  <td width=136 valign=top style='width:102.35pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>rel&auml;f&auml;rgen<o:p></o:p></span></p>
-  </td>
-  <td width=453 valign=top style='width:339.9pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>Konventionellt krav som
-  ber &ouml;ppningshanden beskriva sin hand <b>eller</b> naturligt rondkrav.<span
-  style="mso-spacerun: yes">  </span>Notera att kravbudet <b>inte</b> lovar
-  styrka - det avges &auml;ven p&aring; kort f&ouml;r d&aring;liga f&ouml;r 1NT!<o:p></o:p></span></p>
-  </td>
- </tr>
- <tr>
-  <td width=136 valign=top style='width:102.35pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>1-&ouml;ver-1<o:p></o:p></span></p>
-  </td>
-  <td width=453 valign=top style='width:339.9pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>Naturliga rondkrav, 1</span><span
-  style='font-family:Symbol;color:red'>&hearts;</span><span style='font-family:Verdana'>/</span><span
-  style='font-family:Symbol'>&spades;</span><span style='font-family:Verdana'> visar
-  normalt 5+kortsf&auml;rg<o:p></o:p></span></p>
-  </td>
- </tr>
- <tr>
-  <td width=136 valign=top style='width:102.35pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>2-&ouml;ver-1<o:p></o:p></span></p>
-  </td>
-  <td width=453 valign=top style='width:339.9pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>Naturliga rondkrav,
-  normalt minst stark 5+kortsf&auml;rg (kan ha s&aring; lite som 6+)<o:p></o:p></span></p>
-  </td>
- </tr>
- <tr>
-  <td width=136 valign=top style='width:102.35pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>1NT<o:p></o:p></span></p>
-  </td>
-  <td width=453 valign=top style='width:339.9pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>9-11 (efter 1</span><span
-  style='font-family:Symbol'>&spades;</span><span style='font-family:Verdana'> dock
-  5-9)<o:p></o:p></span></p>
-  </td>
- </tr>
- <tr>
-  <td width=136 valign=top style='width:102.35pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>2NT<o:p></o:p></span></p>
-  </td>
-  <td width=453 valign=top style='width:339.9pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>13-14 balanserad (efter
-  1</span><span style='font-family:Symbol'>&spades;</span><span style='font-family:
-  Verdana'> visas denna hand med 2</span><span style='font-family:Symbol'>&clubs;</span><span
-  style='font-family:Verdana'> f&ouml;ljt av 2NT)<o:p></o:p></span></p>
-  </td>
- </tr>
- <tr>
-  <td width=136 valign=top style='width:102.35pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>3NT<o:p></o:p></span></p>
-  </td>
-  <td width=453 valign=top style='width:339.9pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>15-16 balanserad<o:p></o:p></span></p>
-  </td>
- </tr>
- <tr>
-  <td width=136 valign=top style='width:102.35pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>Hopp i rel&auml;f&auml;rgen<o:p></o:p></span></p>
-  </td>
-  <td width=453 valign=top style='width:339.9pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;mso-list:
-  l3 level1 lfo4;tab-stops:list 18.0pt'><![if !supportLists]><span
-  style='font-family:Verdana'>a)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><![endif]><span style='font-family:Verdana'>17-19 balans<o:p></o:p></span></p>
-  <p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;mso-list:
-  l3 level1 lfo4;tab-stops:list 18.0pt'><![if !supportLists]><span
-  style='font-family:Verdana'>b)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><![endif]><span style='font-family:Verdana'>Utg&aring;ngskrav (13+)
-  med 6-kortsf&auml;rg<o:p></o:p></span></p>
-  </td>
- </tr>
- <tr>
-  <td width=136 valign=top style='width:102.35pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>Hoppande borttag<o:p></o:p></span></p>
-  </td>
-  <td width=453 valign=top style='width:339.9pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>Utg&aring;ngskrav (13+) med
-  6+kortsf&auml;rg <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr>
-  <td width=136 valign=top style='width:102.35pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>Enkelh&ouml;jning<o:p></o:p></span></p>
-  </td>
-  <td width=453 valign=top style='width:339.9pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>Svagt med 4-kortsst&ouml;d<o:p></o:p></span></p>
-  </td>
- </tr>
- <tr>
-  <td width=136 valign=top style='width:102.35pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>Dubbelh&ouml;jning<o:p></o:p></span></p>
-  </td>
-  <td width=453 valign=top style='width:339.9pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>Begr&auml;nsat utg&aring;ngskrav
-  med 4+kortsst&ouml;d (normalt utan bra sidof&auml;rg)<o:p></o:p></span></p>
-  </td>
- </tr>
-</table>
-
-<p class=MsoHeader style='tab-stops:65.2pt'><b><span style='font-family:Verdana'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></b></p>
-
-<table border=0 cellspacing=0 cellpadding=0 style='border-collapse:collapse;
- mso-padding-alt:0cm 3.5pt 0cm 3.5pt'>
- <tr>
-  <td width=591 valign=top style='width:442.95pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>Den fortsatta
-  budgivningen &auml;r efter 1-&ouml;ver-1 och 2-&ouml;ver-1 i princip som i Culbertson -
-  givetvis med undantag av budgivingen efter <a
-  href="#_Fortsatt_budgivning_efter">rel&auml;kravet</a>!<o:p></o:p></span></p>
-  <p class=MsoNormal><span style='font-family:Verdana'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
-  <h3>Svarshandens aktioner med trumfst&ouml;d</h3>
-  <p class=MsoNormal><span style='font-family:Verdana'>Med 4+st&ouml;d och svaga
-  kort h&ouml;jer svarshanden enkelt, med 4+st&ouml;d och kort till utg&aring;ng men intet mer
-  hoppas i &ouml;ppningsf&auml;rgen om inte egen bra sidof&auml;rg finnes - i detta fall visas
-  sidof&auml;rgen f&ouml;rst och svarshanden bjuder sedan ut utg&aring;ngen.<span
-  style="mso-spacerun: yes">  </span>N&auml;r svarshanden har st&ouml;d och invitstyrka
-  bjuder man egen f&auml;rg f&ouml;r att sedan &aring;terkomma med &ouml;ppningsf&auml;rgen (hopp om
-  preferenssituation uppkommit).<span style="mso-spacerun: yes">  </span>Med
-  st&ouml;d och slamintresse mot god &ouml;ppningshand inleds med <a
-  href="#_Svarshandens_&aring;terbud_efter">rel&auml;kravet</a>.<o:p></o:p></span></p>
-  <p class=MsoNormal><span style='font-family:Verdana'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
-  <h3>Fortsatt budgivning efter rel&auml;kravet<a name="_Fortsatt_budgivning_efter"></a></h3>
-  <p class=MsoNormal><span style='font-family:Verdana'>Grundtanken bakom
-  kaptensbuden &auml;r att &ouml;ppningshanden lydigt - med hj&auml;lp av naturliga bud -
-  skall beskriva sin hand s&aring; l&auml;nge svarshanden s&aring; &ouml;nskar.<span
-  style="mso-spacerun: yes">   </span>&Auml;ven om rel&auml;kravet inte lovar 4-kortsf&auml;rg
-  &aring;terbjuder &ouml;ppningshanden, i princip, som om budet visade 4-kortsf&auml;rg.<span
-  style="mso-spacerun: yes">  </span>Orsaken till detta &auml;r att rel&auml;budet &auml;ven
-  bjuds med svaga h&auml;nder och just rel&auml;f&auml;rgen (f&ouml;rutom att systemet som helhet
-  har en str&auml;van att bjuda &quot;naturligt&quot; om s&aring; m&ouml;jligt &auml;r).<span
-  style="mso-spacerun: yes">  </span>&Ouml;ppningshanden f&ouml;ljer f&ouml;ljande riktlinjer:<o:p></o:p></span></p>
-  <p class=MsoNormal><span style='font-family:Verdana'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
-  <ul style='margin-top:0cm' type=disc>
-   <li class=MsoNormal style='mso-list:l4 level1 lfo5;tab-stops:list 36.0pt'><span
-       style='font-family:Verdana'>Enkelh&ouml;jningen av rel&auml;f&auml;rgen visar
-       4+kortsst&ouml;d och &auml;r styrkeneutralt.<o:p></o:p></span></li>
-   <li class=MsoNormal style='mso-list:l4 level1 lfo5;tab-stops:list 36.0pt'><span
-       style='font-family:Verdana'>Dubbelh&ouml;jning av rel&auml;f&auml;rgen visar
-       5+kortsst&ouml;d och till&auml;ggsv&auml;rden.<o:p></o:p></span></li>
-   <li class=MsoNormal style='mso-list:l4 level1 lfo5;tab-stops:list 36.0pt'><span
-       style='font-family:Verdana'>Med 13-15 balans bjuds ny f&auml;rg eller sang p&aring;
-       samma niv&aring; som kaptensbudet. <o:p></o:p></span></li>
-   <li class=MsoNormal style='mso-list:l4 level1 lfo5;tab-stops:list 36.0pt'><span
-       style='font-family:Verdana'>Med 17-19 balans hoppas i sang<o:p></o:p></span></li>
-   <li class=MsoNormal style='mso-list:l4 level1 lfo5;tab-stops:list 36.0pt'><span
-       style='font-family:Verdana'>&Aring;terkommer &ouml;ppningshanden i &ouml;ppningsf&auml;rgen
-       visas 6-kortsf&auml;rg (hopp med till&auml;ggsv&auml;rden)<o:p></o:p></span></li>
-   <li class=MsoNormal style='mso-list:l4 level1 lfo5;tab-stops:list 36.0pt'><span
-       style='font-family:Verdana'>Ny f&auml;rg visar obalanserad hand och minst 5-4
-       i de visade f&auml;rgerna (hopp i ny f&auml;rg visar till&auml;ggsv&auml;rden).<span
-       style="mso-spacerun: yes">  </span>Ett undantag &auml;r dock &aring;terbudet 1</span><span
-       style='font-family:Symbol'>&spades;</span><span style='font-family:Verdana'>
-       som blott visar 4-korts </span><span style='font-family:Symbol'>&spades;</span><span
-       style='font-family:Verdana'> (om (4432)) dock &auml;r &aring;terbudet 1</span><span
-       style='font-family:Symbol;color:red'>&hearts;</span><span style='font-family:
-       Verdana'> normalt 5-4, men kan &auml;ven bjudas med 4441-f&ouml;rdelning.<span
-       style="mso-spacerun: yes">  </span><o:p></o:p></span></li>
-  </ul>
-  <p class=MsoNormal style='margin-left:18.0pt'><span style='font-family:Verdana'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
-  <h3>Svarshandens &aring;terbud efter rel&auml;kravsinledning (med trumfst&ouml;d i
-  &ouml;ppningsf&auml;rg)<a name="_Svarshandens_&aring;terbud_efter"></a></h3>
-  <p class=MsoNormal><span style='font-family:Verdana'>&Aring;terkommer svarshanden
-  med trumfst&ouml;dsvisande bud i &ouml;ppningsf&auml;rgen s&aring; visar det p&aring; l&auml;gsta niv&aring; en
-  stark invit (bra limit-h&ouml;jning), med starkare kort &auml;n f&ouml;r en direkt
-  dubbelh&ouml;jning inleder svarshanden med rel&auml;kravet, &aring;terkommer med
-  reversebud/ny f&auml;rg p&aring; 3-l&auml;get f&ouml;r att slutligen bjuda utg&aring;ng i
-  &ouml;ppningsf&auml;rgen. <o:p></o:p></span></p>
-  <p class=MsoNormal><span style='font-family:Verdana'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
-  <h3>Svarshandens &aring;terbud efter rel&auml;kravsinledning (utan trumfst&ouml;d i
-  &ouml;ppningsf&auml;rgen)</h3>
-  <p class=MsoNormal><span style='font-family:Verdana'>Svarshanden kan f&ouml;rnya
-  sin utfr&aring;gning av &ouml;ppningshanden och samtidigt etablera utg&aring;ngskrav genom
-  l&auml;gsta reversebud eller hopp i ny f&auml;rg p&aring; 3-tricksniv&aring;n.<span
-  style="mso-spacerun: yes">  </span>&Ouml;vriga &aring;terbud skall tolkas som naturliga
-  okravsbud.<span style="mso-spacerun: yes">  </span>Efter ett upprepat
-  kaptensbud skall &ouml;ppningshanden forts&auml;tta sin naturliga beskrivning av handen
-  genom att &aring;terigen avge l&auml;gsta m&ouml;jliga beskrivande bud.<o:p></o:p></span></p>
-  <p class=MsoNormal><span style='font-family:Verdana'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
-  <h3>Slamkonventioner</h3>
-  <p class=MsoNormal><span style='font-family:Verdana'>EFOS har inga egna
-  specialknep utan lutar sig i huvudsak mot<o:p></o:p></span></p>
-  <p class=MsoNormal><span style='font-family:Verdana'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
-  <ul style='margin-top:0cm' type=disc>
-   <li class=MsoNormal style='mso-list:l1 level1 lfo6;tab-stops:list 36.0pt'><span
-       style='font-family:Verdana'>Culbertsons f&auml;rgfr&aring;gebud<o:p></o:p></span></li>
-   <li class=MsoNormal style='mso-list:l1 level1 lfo6;tab-stops:list 36.0pt'><span
-       style='font-family:Verdana'>Blackwood (5 ess samt reducerad om </span><span
-       style='font-family:Symbol'>&clubs;</span><span style='font-family:Verdana'> &auml;r
-       trumf)<o:p></o:p></span></li>
-   <li class=MsoNormal style='mso-list:l1 level1 lfo6;tab-stops:list 36.0pt'><span
-       style='font-family:Verdana'>Fria 5NT<o:p></o:p></span></li>
-  </ul>
-  <p class=MsoNormal><span style='font-family:Verdana'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
-  <p class=MsoNormal><span style='font-family:Verdana'>Med f&ouml;ljande
-  modifikationer: Efter f&auml;rgfr&aring;gebud har svarshanden r&auml;tt att visa flera
-  andrakontroller samtidigt och/eller andrakontroll i sidof&auml;rg om motsvarande
-  f&ouml;rstakontroller tidigare f&ouml;rnekats.<span style="mso-spacerun: yes"> 
-  </span>Efter fria 5NT visar bud (om utrymmet till&aring;ter) n&auml;rmast under trumf
-  ess eller kung i trumf och bud tv&aring; steg under trumf visar trumfdam eller en
-  extra trumf.<o:p></o:p></span></p>
-  <p class=MsoNormal><span style='font-family:Verdana'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
-  <h3 style='margin-right:163.8pt'>EFOS-sangen<a name="_EFOS_sangen"></a></h3>
-  <p class=MsoNormal><span style='font-family:Verdana'>&Ouml;ppningsbudet 1NT visar
-  16-18 och en balanserad hand.<span style="mso-spacerun: yes">  </span>6332
-  med 6-korts l&aring;gf&auml;rg och 22 (54) accepteras om honn&ouml;rsf&ouml;rdelningen &auml;r
-  passande. <o:p></o:p></span></p>
-  <p class=MsoNormal><span style='font-family:Verdana'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
-  <p class=MsoNormal><span style='font-family:Verdana'>Det har givetvis under
-  EFOS-sangens livstid (mer &auml;n 60 &aring;r!) utvecklats ett otal varianter, den h&auml;r
-  beskrivna &auml;r vare sig den b&auml;sta eller den senaste - har du synpunkter s&aring;
-  skicka g&auml;rna in ditt bidrag till <a href="http://www.syskon.nu/">http://www.syskon.nu/</a>!<span
-  style="mso-spacerun: yes">  </span>N&aring;v&auml;l, tillbaks till EFOS, efter
-  1NT-&ouml;ppningen har svarshanden f&ouml;ljande alternativ till sitt f&ouml;rfogande:</span></p>
-  </td>
- </tr>
-</table>
-
-<p class=MsoHeader style='tab-stops:65.2pt'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
-
-<table border=0 cellspacing=0 cellpadding=0 width=590 style='width:442.25pt;
- margin-left:2.0pt;border-collapse:collapse;mso-padding-alt:0cm 3.5pt 0cm 3.5pt'>
- <tr>
-  <td width=73 valign=top style='width:55.1pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>2</span><span
-  style='font-family:Symbol'>&clubs;</span></p>
-  </td>
-  <td width=516 valign=top style='width:387.15pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>H&ouml;gf&auml;rgsfr&aring;ga<o:p></o:p></span></p>
-  </td>
- </tr>
- <tr>
-  <td width=73 valign=top style='width:55.1pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>2</span><span
-  style='font-family:Symbol;color:red'>&diams;</span><span style='font-family:Verdana'><o:p></o:p></span></p>
-  </td>
-  <td width=516 valign=top style='width:387.15pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>&Ouml;verf&ouml;ring till </span><span
-  style='font-family:Symbol;color:red'>&hearts;</span><span style='font-family:Verdana'>
-  eller </span><span style='font-family:Symbol'>&clubs;</span><span style='font-family:
-  Verdana'> (starkt eller svagt)<o:p></o:p></span></p>
-  </td>
- </tr>
- <tr>
-  <td width=73 valign=top style='width:55.1pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>2</span><span
-  style='font-family:Symbol;color:red'>&hearts;</span></p>
-  </td>
-  <td width=516 valign=top style='width:387.15pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>&Ouml;verf&ouml;ring till </span><span
-  style='font-family:Symbol'>&spades;</span><span style='font-family:Verdana'> eller </span><span
-  style='font-family:Symbol;color:red'>&diams;</span><span style='font-family:Verdana'>
-  (starkt eller svagt)</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=73 valign=top style='width:55.1pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>2</span><span
-  style='font-family:Symbol'>&spades;</span><span style='font-family:Verdana'><o:p></o:p></span></p>
-  </td>
-  <td width=516 valign=top style='width:387.15pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>&Ouml;verf&ouml;ring till b&auml;sta
-  l&aring;gf&auml;rg <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr>
-  <td width=73 valign=top style='width:55.1pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>2NT<o:p></o:p></span></p>
-  </td>
-  <td width=516 valign=top style='width:387.15pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>Naturlig invit.<span
-  style="mso-spacerun: yes">  </span>&Ouml;ppningshanden kan med accept visa 5-korts
-  </span><span style='font-family:Symbol;color:red'>&hearts;</span><span
-  style='font-family:Verdana'>/</span><span style='font-family:Symbol'>&spades;</span><span
-  style='font-family:Verdana'> naturligt och s&auml;kerligen (men har ej hittat det
-  i min bristf&auml;lliga dokumentation) fr&aring;ga efter h&ouml;gf&auml;rg med 3</span><span
-  style='font-family:Symbol'>&clubs;</span><span style='font-family:Verdana'>
-  (Alexanderkonventionen).<o:p></o:p></span></p>
-  </td>
- </tr>
- <tr>
-  <td width=73 valign=top style='width:55.1pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>3x<o:p></o:p></span></p>
-  </td>
-  <td width=516 valign=top style='width:387.15pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>Utg&aring;ngskrav/slaminvit
-  med minst 6-kortsf&auml;rg<o:p></o:p></span></p>
-  </td>
- </tr>
- <tr>
-  <td width=73 valign=top style='width:55.1pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>4</span><span
-  style='font-family:Symbol'>&clubs;</span><span style='font-family:Verdana'><o:p></o:p></span></p>
-  </td>
-  <td width=516 valign=top style='width:387.15pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>Gerbers essfr&aring;ga<o:p></o:p></span></p>
-  </td>
- </tr>
- <tr>
-  <td width=73 valign=top style='width:55.1pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>4</span><span
-  style='font-family:Symbol;color:red'>&diams;</span><span style='font-family:Verdana'><o:p></o:p></span></p>
-  </td>
-  <td width=516 valign=top style='width:387.15pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>Utg&aring;ngskrav/slaminvit
-  med minst 5-5 i </span><span style='font-family:Symbol'>&clubs;</span><span
-  style='font-family:Verdana'>/</span><span style='font-family:Symbol;
-  color:red'>&diams;</span><span style='font-family:Verdana'><o:p></o:p></span></p>
-  </td>
- </tr>
- <tr>
-  <td width=73 valign=top style='width:55.1pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>Utg&aring;ng<o:p></o:p></span></p>
-  </td>
-  <td width=516 valign=top style='width:387.15pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>Slutbud<o:p></o:p></span></p>
-  </td>
- </tr>
-</table>
-
-<p class=MsoHeader style='tab-stops:65.2pt'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
-
-<table border=0 cellspacing=0 cellpadding=0 style='border-collapse:collapse;
- mso-padding-alt:0cm 3.5pt 0cm 3.5pt'>
- <tr>
-  <td width=591 valign=top style='width:442.95pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <h3>Fortsatt budgivning efter 1NT-2<span style='font-family:Symbol'>&clubs;</span></h3>
-  <p class=MsoNormal><span style='font-family:Verdana'>Efter h&ouml;gf&auml;rgsfr&aring;gan har
-  EFOS-spelaren m&ouml;jlighet att b&aring;de visa styrka och f&ouml;rdelning.<span
-  style="mso-spacerun: yes">  </span>Detta sker genom anv&auml;ndandet av f&ouml;ljande
-  intrikata svarsskala: <o:p></o:p></span></p>
-  </td>
- </tr>
-</table>
-
-<p class=MsoHeader style='tab-stops:65.2pt'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
-
-<table border=0 cellspacing=0 cellpadding=0 width=580 style='width:434.9pt;
- margin-left:5.75pt;border-collapse:collapse;mso-padding-alt:0cm 3.5pt 0cm 3.5pt'>
- <tr>
-  <td width=36 valign=top style='width:27.0pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>1NT<o:p></o:p></span></p>
-  </td>
-  <td width=37 valign=top style='width:27.45pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>2</span><span
-  style='font-family:Symbol'>&clubs;</span></p>
-  </td>
-  <td width=47 valign=top style='width:35.45pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>2</span><span
-  style='font-family:Symbol;color:red'>&diams;</span><span style='font-family:Verdana'><o:p></o:p></span></p>
-  </td>
-  <td width=460 valign=top style='width:345.0pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>Ingen 4-korts </span><span
-  style='font-family:Symbol;color:red'>&hearts;</span><span style='font-family:Verdana'>/</span><span
-  style='font-family:Symbol'>&spades;</span><span style='font-family:Verdana'> samt
-  minimum (15-16)<o:p></o:p></span></p>
-  </td>
- </tr>
- <tr>
-  <td width=36 valign=top style='width:27.0pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><span
-  style='font-family:Verdana'><o:p></o:p></span></p>
-  </td>
-  <td width=37 valign=top style='width:27.45pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><span
-  style='font-family:Verdana'><o:p></o:p></span></p>
-  </td>
-  <td width=47 valign=top style='width:35.45pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>2</span><span
-  style='font-family:Symbol;color:red'>&hearts;</span></p>
-  </td>
-  <td width=460 valign=top style='width:345.0pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>4-korts </span><span
-  style='font-family:Symbol;color:red'>&hearts;</span><span style='font-family:Verdana'>
-  (f&ouml;rnekar 4-korts </span><span style='font-family:Symbol'>&spades;</span><span
-  style='font-family:Verdana'>)<o:p></o:p></span></p>
-  </td>
- </tr>
- <tr>
-  <td width=36 valign=top style='width:27.0pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
-  </td>
-  <td width=37 valign=top style='width:27.45pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
-  </td>
-  <td width=47 valign=top style='width:35.45pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>2</span><span
-  style='font-family:Symbol'>&spades;</span><span style='font-family:Verdana'><o:p></o:p></span></p>
-  </td>
-  <td width=460 valign=top style='width:345.0pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>4-korts </span><span
-  style='font-family:Symbol'>&spades;</span><span style='font-family:Verdana'>
-  (f&ouml;rnekar 4-korts </span><span style='font-family:Symbol;color:red'>&hearts;</span><span
-  style='font-family:Verdana'>)</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=36 valign=top style='width:27.0pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><span
-  style='font-family:Verdana'><o:p></o:p></span></p>
-  </td>
-  <td width=37 valign=top style='width:27.45pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><span
-  style='font-family:Verdana'><o:p></o:p></span></p>
-  </td>
-  <td width=47 valign=top style='width:35.45pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>2NT<o:p></o:p></span></p>
-  </td>
-  <td width=460 valign=top style='width:345.0pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>4-4 i </span><span
-  style='font-family:Symbol;color:red'>&hearts;</span><span style='font-family:Verdana'>-</span><span
-  style='font-family:Symbol'>&spades;</span><span style='font-family:Verdana'> samt
-  minimum (15-16).<span style="mso-spacerun: yes">  </span>Svarshanden &ouml;verf&ouml;r
-  med 3</span><span style='font-family:Symbol;color:red'>&diams;</span><span
-  style='font-family:Verdana'>/</span><span style='font-family:Symbol;
-  color:red'>&hearts;</span><span style='font-family:Verdana'> eller avslutar
-  budgivningen med 3NT. <o:p></o:p></span></p>
-  </td>
- </tr>
- <tr>
-  <td width=36 valign=top style='width:27.0pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><span
-  style='font-family:Verdana'><o:p></o:p></span></p>
-  </td>
-  <td width=37 valign=top style='width:27.45pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><span
-  style='font-family:Verdana'><o:p></o:p></span></p>
-  </td>
-  <td width=47 valign=top style='width:35.45pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>3</span><span
-  style='font-family:Symbol'>&clubs;</span><span style='font-family:Verdana'><o:p></o:p></span></p>
-  </td>
-  <td width=460 valign=top style='width:345.0pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>Ingen 4-korts </span><span
-  style='font-family:Symbol;color:red'>&hearts;</span><span style='font-family:Verdana'>/</span><span
-  style='font-family:Symbol'>&spades;</span><span style='font-family:Verdana'> samt
-  maximum (17-18).<o:p></o:p></span></p>
-  </td>
- </tr>
- <tr>
-  <td width=36 valign=top style='width:27.0pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><span
-  style='font-family:Verdana'><o:p></o:p></span></p>
-  </td>
-  <td width=37 valign=top style='width:27.45pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><span
-  style='font-family:Verdana'><o:p></o:p></span></p>
-  </td>
-  <td width=47 valign=top style='width:35.45pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>3</span><span
-  style='font-family:Symbol;color:red'>&diams;</span><span style='font-family:Verdana'><o:p></o:p></span></p>
-  </td>
-  <td width=460 valign=top style='width:345.0pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>22 (54) och maximum
-  (17-18).<o:p></o:p></span></p>
-  </td>
- </tr>
- <tr>
-  <td width=36 valign=top style='width:27.0pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><span
-  style='font-family:Verdana'><o:p></o:p></span></p>
-  </td>
-  <td width=37 valign=top style='width:27.45pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><span
-  style='font-family:Verdana'><o:p></o:p></span></p>
-  </td>
-  <td width=47 valign=top style='width:35.45pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>3</span><span
-  style='font-family:Symbol;color:red'>&hearts;</span><span style='font-family:Verdana'>/</span><span
-  style='font-family:Symbol'>&spades;</span></p>
-  </td>
-  <td width=460 valign=top style='width:345.0pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>Stark 5-kortsf&auml;rg samt
-  maximum (17-18).<o:p></o:p></span></p>
-  </td>
- </tr>
- <tr>
-  <td width=36 valign=top style='width:27.0pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><span
-  style='font-family:Verdana'><o:p></o:p></span></p>
-  </td>
-  <td width=37 valign=top style='width:27.45pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><span
-  style='font-family:Verdana'><o:p></o:p></span></p>
-  </td>
-  <td width=47 valign=top style='width:35.45pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>3NT<o:p></o:p></span></p>
-  </td>
-  <td width=460 valign=top style='width:345.0pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>4-4 i </span><span
-  style='font-family:Symbol;color:red'>&hearts;</span><span style='font-family:Verdana'>-</span><span
-  style='font-family:Symbol'>&spades;</span><span style='font-family:Verdana'> samt
-  maximum (17-18).<span style="mso-spacerun: yes">  </span>Svarshanden &ouml;verf&ouml;r
-  med 3</span><span style='font-family:Symbol;color:red'>&diams;</span><span
-  style='font-family:Verdana'>/</span><span style='font-family:Symbol;
-  color:red'>&hearts;</span><span style='font-family:Verdana'>.<o:p></o:p></span></p>
-  </td>
- </tr>
-</table>
-
-<p class=MsoHeader style='tab-stops:65.2pt'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
-
-<table border=0 cellspacing=0 cellpadding=0 style='border-collapse:collapse;
- mso-padding-alt:0cm 3.5pt 0cm 3.5pt'>
- <tr>
-  <td width=591 valign=top style='width:442.95pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>Efter svaren 2</span><span
-  style='font-family:Symbol;color:red'>&diams;</span><span style='font-family:Verdana'>-3</span><span
-  style='font-family:Symbol'>&clubs;</span><span style='font-family:Verdana'> &auml;r 3</span><span
-  style='font-family:Symbol;color:red'>&diams;</span><span style='font-family:Verdana'>
-  upprepad h&ouml;gf&auml;rgsfr&aring;ga, &ouml;ppningshanden visar nu extrakort i h&ouml; (3 eller 5)
-  naturligt nerifr&aring;n.<span style="mso-spacerun: yes">  </span>Mer modernt &auml;r
-  givetvis att spela med 3</span><span style='font-family:Symbol'>&clubs;</span><span
-  style='font-family:Verdana'> som upprepad h&ouml;gf&auml;rgsfr&aring;ga i de fall detta &auml;r
-  m&ouml;jligt, men en g&aring;ng i tiden anv&auml;ndes faktiskt 3</span><span
-  style='font-family:Symbol;color:red'>&diams;</span><span style='font-family:Verdana'>.<o:p></o:p></span></p>
-  </td>
- </tr>
-</table>
-
-<p class=MsoHeader style='tab-stops:65.2pt'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
-
-<table border=0 cellspacing=0 cellpadding=0 width=580 style='width:434.9pt;
- margin-left:6.15pt;border-collapse:collapse;mso-padding-alt:0cm 3.5pt 0cm 3.5pt'>
- <tr>
-  <td width=36 valign=top style='width:27.0pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>1NT<o:p></o:p></span></p>
-  </td>
-  <td width=36 valign=top style='width:27.05pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>2</span><span
-  style='font-family:Symbol'>&clubs;</span></p>
-  </td>
-  <td width=47 valign=top style='width:35.45pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>2</span><span
-  style='font-family:Symbol;color:red'>&diams;</span><span style='font-family:Verdana'><o:p></o:p></span></p>
-  </td>
-  <td width=461 valign=top style='width:345.4pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>Ingen 4-korts </span><span
-  style='font-family:Symbol;color:red'>&hearts;</span><span style='font-family:Verdana'>/</span><span
-  style='font-family:Symbol'>&spades;</span><span style='font-family:Verdana'><o:p></o:p></span></p>
-  </td>
- </tr>
- <tr>
-  <td width=36 valign=top style='width:27.0pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><span
-  style='font-family:Verdana'><o:p></o:p></span></p>
-  </td>
-  <td width=36 valign=top style='width:27.05pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><span
-  style='font-family:Verdana'><o:p></o:p></span></p>
-  </td>
-  <td width=47 valign=top style='width:35.45pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>2</span><span
-  style='font-family:Symbol;color:red'>&hearts;</span></p>
-  </td>
-  <td width=461 valign=top style='width:345.4pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>4-korts </span><span
-  style='font-family:Symbol;color:red'>&hearts;</span><span style='font-family:Verdana'>
-  (f&ouml;rnekar 4-korts </span><span style='font-family:Symbol'>&spades;</span><span
-  style='font-family:Verdana'>)<o:p></o:p></span></p>
-  </td>
- </tr>
- <tr>
-  <td width=36 valign=top style='width:27.0pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
-  </td>
-  <td width=36 valign=top style='width:27.05pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
-  </td>
-  <td width=47 valign=top style='width:35.45pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>2</span><span
-  style='font-family:Symbol'>&spades;</span><span style='font-family:Verdana'><o:p></o:p></span></p>
-  </td>
-  <td width=461 valign=top style='width:345.4pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>4-korts </span><span
-  style='font-family:Symbol'>&spades;</span><span style='font-family:Verdana'>
-  (f&ouml;rnekar 4-korts </span><span style='font-family:Symbol;color:red'>&hearts;</span><span
-  style='font-family:Verdana'>)</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=36 valign=top style='width:27.0pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><span
-  style='font-family:Verdana'><o:p></o:p></span></p>
-  </td>
-  <td width=36 valign=top style='width:27.05pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><span
-  style='font-family:Verdana'><o:p></o:p></span></p>
-  </td>
-  <td width=47 valign=top style='width:35.45pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>2NT<o:p></o:p></span></p>
-  </td>
-  <td width=461 valign=top style='width:345.4pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>4-4 i </span><span
-  style='font-family:Symbol;color:red'>&hearts;</span><span style='font-family:Verdana'>-</span><span
-  style='font-family:Symbol'>&spades;</span><span style='font-family:Verdana'> samt
-  minimum<o:p></o:p></span></p>
-  </td>
- </tr>
- <tr>
-  <td width=36 valign=top style='width:27.0pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><span
-  style='font-family:Verdana'><o:p></o:p></span></p>
-  </td>
-  <td width=36 valign=top style='width:27.05pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><span
-  style='font-family:Verdana'><o:p></o:p></span></p>
-  </td>
-  <td width=47 valign=top style='width:35.45pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>3</span><span
-  style='font-family:Symbol'>&clubs;</span><span style='font-family:Verdana'><o:p></o:p></span></p>
-  </td>
-  <td width=461 valign=top style='width:345.4pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>4-4 i </span><span
-  style='font-family:Symbol;color:red'>&hearts;</span><span style='font-family:Verdana'>-</span><span
-  style='font-family:Symbol'>&spades;</span><span style='font-family:Verdana'> samt
-  maximum<o:p></o:p></span></p>
-  </td>
- </tr>
-</table>
-
-<p class=MsoHeader style='tab-stops:65.2pt'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
-
-<table border=0 cellspacing=0 cellpadding=0 style='border-collapse:collapse;
- mso-padding-alt:0cm 3.5pt 0cm 3.5pt'>
- <tr>
-  <td width=591 valign=top style='width:442.95pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>I detta fall kan 3</span><span
-  style='font-family:Symbol'>&clubs;</span><span style='font-family:Verdana'>
-  anv&auml;ndas som upprepad h&ouml;gf&auml;rgsfr&aring;ga och 3</span><span style='font-family:
-  Symbol;color:red'>&diams;</span><span style='font-family:Verdana'> som fr&aring;ga efter
-  exakt po&auml;ngantal. Anv&auml;nder man 3</span><span style='font-family:Symbol'>&clubs;</span><span
-  style='font-family:Verdana'> som upprepad h&ouml;gf&auml;rgsfr&aring;ga kan man f&ouml;lja upp
-  svaren p&aring; denna med 4</span><span style='font-family:Symbol'>&clubs;</span><span
-  style='font-family:Verdana'> som l&aring;gf&auml;rgsfr&aring;ga/exakt f&ouml;rdelningsfr&aring;ga!<span
-  style="mso-spacerun: yes">  </span><o:p></o:p></span></p>
-  <p class=MsoNormal><span style='font-family:Verdana'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
-  <h3>Fortsatt budgivning efter 1NT-2<span style='font-family:Symbol;
-  color:red'>&diams;</span>/<span style='font-family:Symbol;color:red'>&hearts;</span></h3>
-  <p class=MsoNormal><span style='font-family:Verdana'>&Ouml;ppningshanden bjuder
-  normalt rel&auml;budet men kan med maximum och bra st&ouml;d i rel&auml;f&auml;rgen v&auml;gra och
-  bjuda den alternativa rel&auml;f&auml;rgen (d v s l&aring;gf&auml;rgen).<span style="mso-spacerun:
-  yes">  </span>Efter rel&auml;svar bjuder svarshanden sang som invit/utg&aring;ngskrav
-  med exakt 5-korts &ouml;verf&ouml;ringsf&auml;rg eller n&auml;rmaste f&auml;rgbud som fortsatt
-  &ouml;verf&ouml;ring.<span style="mso-spacerun: yes">  </span>H&ouml;jning av &ouml;verf&ouml;ringsf&auml;rgen
-  &auml;r invit med 6-kortsf&auml;rg och hopp till 4-l&auml;get &auml;r f&auml;rgfr&aring;gebud med
-  &ouml;verf&ouml;ringsf&auml;rgen som trumf.<span style="mso-spacerun: yes">  </span><o:p></o:p></span></p>
-  <p class=MsoNormal><span style='font-family:Verdana'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
-  <h3>Fortsatt budgivning efter 1NT-2<span style='font-family:Symbol'>&spades;</span></h3>
-  <p class=MsoNormal><span style='font-family:Verdana'>Svarsbudet 2</span><span
-  style='font-family:Symbol'>&spades;</span><span style='font-family:Verdana'> ber
-  &ouml;ppningshanden att preferera l&aring;gf&auml;rg, &ouml;ppningshanden g&ouml;r detta naturligt
-  eller inviterar mot 3NT med 2NT (lovar rej&auml;la h&aring;ll i </span><span
-  style='font-family:Symbol;color:red'>&hearts;</span><span style='font-family:Verdana'>/</span><span
-  style='font-family:Symbol'>&spades;</span><span style='font-family:Verdana'>), visar
-  maximum och bra st&ouml;d i </span><span style='font-family:Symbol'>&clubs;</span><span
-  style='font-family:Verdana'>/</span><span style='font-family:Symbol;
-  color:red'>&diams;</span><span style='font-family:Verdana'>) genom att bjuda 3</span><span
-  style='font-family:Symbol;color:red'>&hearts;</span><span style='font-family:Verdana'>/</span><span
-  style='font-family:Symbol'>&spades;</span><span style='font-family:Verdana'>) eller
-  bra st&ouml;tta i b&auml;gge l&aring;gf&auml;rgerna genom ett direkt 3NT bud.<o:p></o:p></span></p>
-  <p class=MsoNormal><span style='font-family:Verdana'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
-  <p class=MsoNormal><i><span style='font-family:Verdana'>Fortsatt budgivning
-  efter 1NT-3</span></i><i><span style='font-family:Symbol'>&clubs;</span></i><i><span
-  style='font-family:Verdana'>/</span></i><i><span style='font-family:Symbol;
-  color:red'>&diams;</span></i><i><span style='font-family:Verdana'>/</span></i><i><span
-  style='font-family:Symbol;color:red'>&hearts;</span></i><i><span style='font-family:
-  Verdana'>/</span></i><i><span style='font-family:Symbol'>&spades;</span></i><i><span
-  style='font-family:Verdana'><o:p></o:p></span></i></p>
-  <p class=MsoNormal><span style='font-family:Verdana'>Hoppen till 3 i f&auml;rg
-  etablerar trumf och &auml;r minst utg&aring;ngskrav.<span style="mso-spacerun: yes"> 
-  </span>&Ouml;ppningshanden bjuder 3NT med s&auml;mre st&ouml;d &auml;n Hx/xxx, 4 i trumf med bra
-  trumfst&ouml;d och d&aring;liga slamkort eller kontrollbjuder ny f&auml;rg.<o:p></o:p></span></p>
-  <p class=MsoNormal><span style='font-family:Verdana'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
-  <p class=MsoNormal><i><span style='font-family:Verdana'>Fortsatt budgivning
-  efter 1NT-4</span></i><i><span style='font-family:Symbol;color:red'>&diams;</span></i><i><span
-  style='font-family:Verdana'><o:p></o:p></span></i></p>
-  <p class=MsoNormal><span style='font-family:Verdana'>Efter det att
-  svarshanden upplyst om en minst utg&aring;ngskr&auml;vande hand med 5-5 i </span><span
-  style='font-family:Symbol'>&clubs;/<span style='color:red'>&diams; </span></span><span
-  style='font-family:Verdana'>bjuder &ouml;ppningshanden enligt f&ouml;ljande mindre
-  v&auml;lgenomt&auml;nkta schema<o:p></o:p></span></p>
-  </td>
- </tr>
-</table>
-
-<p class=MsoHeader style='tab-stops:65.2pt'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
-
-<table border=0 cellspacing=0 cellpadding=0 width=590 style='width:442.25pt;
- margin-left:2.4pt;border-collapse:collapse;mso-padding-alt:0cm 3.5pt 0cm 3.5pt'>
- <tr>
-  <td width=49 valign=top style='width:36.55pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>4</span><span
-  style='font-family:Symbol;color:red'>&hearts;</span><span style='font-family:Verdana'>/</span><span
-  style='font-family:Symbol'>&spades;</span><span style='font-family:Verdana'><o:p></o:p></span></p>
-  </td>
-  <td width=541 valign=top style='width:405.7pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>Ess i bjuden f&auml;rg, &Ouml;H
-  har dessutom minst EE, EK, KKD i </span><span style='font-family:Symbol'>&clubs;</span><span
-  style='font-family:Verdana'>/</span><span style='font-family:Symbol;
-  color:red'>&diams;</span><span style='font-family:Verdana'><o:p></o:p></span></p>
-  </td>
- </tr>
- <tr>
-  <td width=49 valign=top style='width:36.55pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>4N<o:p></o:p></span></p>
-  </td>
-  <td width=541 valign=top style='width:405.7pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>Odefinierat!<o:p></o:p></span></p>
-  </td>
- </tr>
- <tr>
-  <td width=49 valign=top style='width:36.55pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>5</span><span
-  style='font-family:Symbol'>&clubs;</span><span style='font-family:Verdana'>/</span><span
-  style='font-family:Symbol;color:red'>&diams;</span><span style='font-family:Verdana'><o:p></o:p></span></p>
-  </td>
-  <td width=541 valign=top style='width:405.7pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>Avl&auml;gg i &ouml;ppningshandens
-  b&auml;sta l&aring;gf&auml;rg<o:p></o:p></span></p>
-  </td>
- </tr>
- <tr>
-  <td width=49 valign=top style='width:36.55pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>6</span><span
-  style='font-family:Symbol'>&clubs;</span><span style='font-family:Verdana'>/</span><span
-  style='font-family:Symbol;color:red'>&diams;</span><span style='font-family:Verdana'><o:p></o:p></span></p>
-  </td>
-  <td width=541 valign=top style='width:405.7pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>B&auml;sta l&aring;gf&auml;rg med minst
-  EEH, EKH eller KDKD i </span><span style='font-family:Symbol'>&clubs;</span><span
-  style='font-family:Verdana'>/</span><span style='font-family:Symbol;
-  color:red'>&diams;</span><span style='font-family:Verdana'><o:p></o:p></span></p>
-  </td>
- </tr>
-</table>
-
-<p class=MsoHeader style='tab-stops:65.2pt'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
-
-<table border=0 cellspacing=0 cellpadding=0 style='border-collapse:collapse;
- mso-padding-alt:0cm 3.5pt 0cm 3.5pt'>
- <tr>
-  <td width=591 valign=top style='width:442.95pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <h3>EFOS 2NT budgivning</h3>
-  <h3><span style='font-style:normal'>EFOS 2NT budgivning skiljer sig en aning
-  fr&aring;n 1NT-budgivningen.<span style="mso-spacerun: yes">  </span>Svarsbuden och
-  den fortsatta budgivningen &auml;r<o:p></o:p></span></h3>
-  </td>
- </tr>
-</table>
-
-<p class=MsoHeader style='tab-stops:65.2pt'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
-
-<table border=0 cellspacing=0 cellpadding=0 width=583 style='width:437.2pt;
- margin-left:5.75pt;border-collapse:collapse;mso-padding-alt:0cm 3.5pt 0cm 3.5pt'>
- <tr>
-  <td width=44 valign=top style='width:33.2pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>3</span><span
-  style='font-family:Symbol'>&clubs;</span><span style='font-family:Verdana'><o:p></o:p></span></p>
-  </td>
-  <td width=539 valign=top style='width:404.0pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>Fr&aring;ga efter 5-korts </span><span
-  style='font-family:Symbol;color:red'>&hearts;</span><span style='font-family:Verdana'>/</span><span
-  style='font-family:Symbol'>&spades;. </span><span style='font-family:Verdana'>&Ouml;H
-  bjuder 3</span><span style='font-family:Symbol;color:red'>&diams;</span><span
-  style='font-family:Verdana'> utan 5-korts </span><span style='font-family:
-  Symbol;color:red'>&hearts;</span><span style='font-family:Verdana'>/</span><span
-  style='font-family:Symbol'>&spades;</span><span style='font-family:Verdana'> men med
-  n&aring;gon eller n&aring;gra 4-korts h&ouml;gf&auml;rger, med 5-korts </span><span
-  style='font-family:Symbol;color:red'>&hearts;</span><span style='font-family:Verdana'>/</span><span
-  style='font-family:Symbol'>&spades; <span style="mso-spacerun: yes"> </span></span><span
-  style='font-family:Verdana'>bjuds h&ouml;gf&auml;rgen.<span style="mso-spacerun: yes"> 
-  </span>Utan vare sig 4 eller 5-korts </span><span style='font-family:Symbol;
-  color:red'>&hearts;</span><span style='font-family:Verdana'>/</span><span
-  style='font-family:Symbol'>&spades; </span><span style='font-family:Verdana'>svarar
-  &ouml;ppningshanden 3NT.<span style="mso-spacerun: yes">  </span>Efter svaret 3</span><span
-  style='font-family:Symbol;color:red'>&diams;</span><span style='font-family:Verdana'>
-  bjuder svarshanden 3</span><span style='font-family:Symbol;color:red'>&hearts;</span><span
-  style='font-family:Verdana'>/</span><span style='font-family:Symbol'>&spades;</span><span
-  style='font-family:Verdana'> omv&auml;nt (d v s 3</span><span style='font-family:
-  Symbol;color:red'>&hearts;</span><span style='font-family:Verdana'> med 4-korts </span><span
-  style='font-family:Symbol'>&spades;</span><span style='font-family:Verdana'>) eller
-  3NT som slutbud.<o:p></o:p></span></p>
-  </td>
- </tr>
- <tr>
-  <td width=44 valign=top style='width:33.2pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>3</span><span
-  style='font-family:Symbol;color:red'>&diams;</span><span style='font-family:Verdana'><o:p></o:p></span></p>
-  </td>
-  <td width=539 valign=top style='width:404.0pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>Visar minst (54) i </span><span
-  style='font-family:Symbol;color:red'>&hearts;</span><span style='font-family:Verdana'>/</span><span
-  style='font-family:Symbol'>&spades; </span><span style='font-family:Verdana'>eller
-  exakt 5-3 i </span><span style='font-family:Symbol;color:red'>&hearts;</span><span
-  style='font-family:Verdana'>-</span><span style='font-family:Symbol'>&spades;</span><span
-  style='font-family:Verdana'><o:p></o:p></span></p>
-  </td>
- </tr>
- <tr>
-  <td width=44 valign=top style='width:33.2pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>3</span><span
-  style='font-family:Symbol;color:red'>&hearts;</span></p>
-  </td>
-  <td width=539 valign=top style='width:404.0pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>6-korts </span><span
-  style='font-family:Symbol;color:red'>&hearts;</span><span style='font-family:Verdana'>
-  (eventuellt 5-korts med max 2-korts </span><span style='font-family:Symbol'>&spades;</span><span
-  style='font-family:Verdana'>)<o:p></o:p></span></p>
-  </td>
- </tr>
- <tr>
-  <td width=44 valign=top style='width:33.2pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>3</span><span
-  style='font-family:Symbol'>&spades;</span><span style='font-family:Verdana'><o:p></o:p></span></p>
-  </td>
-  <td width=539 valign=top style='width:404.0pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>6-korts </span><span
-  style='font-family:Symbol'>&spades;</span><span style='font-family:Verdana'>
-  (eventuellt 5-korts med max 2-korts </span><span style='font-family:Symbol;
-  color:red'>&hearts;</span><span style='font-family:Verdana'>)</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=44 valign=top style='width:33.2pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>3NT<o:p></o:p></span></p>
-  </td>
-  <td width=539 valign=top style='width:404.0pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>5-korts </span><span
-  style='font-family:Symbol'>&spades;</span><span style='font-family:Verdana'> och
-  3-korts </span><span style='font-family:Symbol;color:red'>&hearts;</span><span
-  style='font-family:Verdana'><o:p></o:p></span></p>
-  </td>
- </tr>
- <tr>
-  <td width=44 valign=top style='width:33.2pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>4</span><span
-  style='font-family:Symbol'>&clubs;</span><span style='font-family:Verdana'><o:p></o:p></span></p>
-  </td>
-  <td width=539 valign=top style='width:404.0pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>Essfr&aring;ga<o:p></o:p></span></p>
-  </td>
- </tr>
- <tr>
-  <td width=44 valign=top style='width:33.2pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>4</span><span
-  style='font-family:Symbol;color:red'>&diams;</span><span style='font-family:Verdana'><o:p></o:p></span></p>
-  </td>
-  <td width=539 valign=top style='width:404.0pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>&Ouml;verf&ouml;ring<o:p></o:p></span></p>
-  </td>
- </tr>
- <tr>
-  <td width=44 valign=top style='width:33.2pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>4</span><span
-  style='font-family:Symbol;color:red'>&hearts;</span></p>
-  </td>
-  <td width=539 valign=top style='width:404.0pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>&Ouml;verf&ouml;ring<o:p></o:p></span></p>
-  </td>
- </tr>
- <tr>
-  <td width=44 valign=top style='width:33.2pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>4</span><span
-  style='font-family:Symbol'>&spades;</span><span style='font-family:Verdana'><o:p></o:p></span></p>
-  </td>
-  <td width=539 valign=top style='width:404.0pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>Stark l&aring;gf&auml;rgshand med
-  slamintresse<o:p></o:p></span></p>
-  </td>
- </tr>
-</table>
-
-<p class=MsoHeader style='tab-stops:65.2pt'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
-
-<table border=0 cellspacing=0 cellpadding=0 style='border-collapse:collapse;
- mso-padding-alt:0cm 3.5pt 0cm 3.5pt'>
- <tr>
-  <td width=591 valign=top style='width:442.95pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <h3>EFOS Defensivbudgivning</h3>
-  <p class=MsoNormal><span style='font-family:Verdana'>EFOS defensivbudgivning
-  baseras p&aring; idén att den egna sidan s&aring; snart som m&ouml;jligt skall in i
-  budgivningen; f&ouml;r att citera Lillieh&ouml;&ouml;k: <o:p></o:p></span></p>
-  <p class=MsoBodyTextIndent>S&aring; snart andra hand har en rimlig m&ouml;jlighet att
-  avgiva ett bud, m&aring;ste han d&auml;rf&ouml;r g&ouml;ra det</p>
-  <p class=MsoNormal><span style='font-family:Verdana'>En EFOS-spelare har
-  s&aring;lunda mindre orsak att h&aring;lla ig&aring;ng budgivningen i sista hand (eller att agera
-  i en aktiv budgivning) &auml;n de som exempelvis baserar sina inkliv p&aring; bra f&auml;rger
-  - &aring;tminstone om m&aring;let &auml;r ett delkontrakt i en f&ouml;r andra hand bjudbar f&auml;rg p&aring;
-  1-l&auml;get.<o:p></o:p></span></p>
-  <p class=MsoNormal><span style='font-family:Verdana'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
-  <p class=MsoNormal><span style='font-family:Verdana'>En grov principskiss av
-  EFOS defensivbudgivning:<o:p></o:p></span></p>
-  <p class=MsoNormal><span style='font-family:Verdana'><span
-  style="mso-spacerun: yes">  </span><o:p></o:p></span></p>
-  <ul style='margin-top:0cm' type=disc>
-   <li class=MsoNormal style='mso-list:l5 level1 lfo7;tab-stops:list 36.0pt'><span
-       style='font-family:Verdana'>Inkliv p&aring; 1-l&auml;get (i andra hand) visar Hxx
-       eller b&auml;ttre samt en styrka p&aring; minst 9 punkter.<o:p></o:p></span></li>
-   <li class=MsoNormal style='mso-list:l5 level1 lfo7;tab-stops:list 36.0pt'><span
-       style='font-family:Verdana'>Inkliv p&aring; 2-l&auml;get &auml;r alltid baserade p&aring; bra
-       f&auml;rg (minst stark 5+kortsf&auml;rg)<o:p></o:p></span></li>
-   <li class=MsoNormal style='mso-list:l5 level1 lfo7;tab-stops:list 36.0pt'><span
-       style='font-family:Verdana'>D &auml;r UD och kan gentemot 1</span><span
-       style='font-family:Symbol'>&spades;</span><span style='font-family:Verdana'>
-       avges p&aring; svaga kort men lovar mot &ouml;vriga 1-&ouml;ppningar &ouml;ppningsstyrka.<o:p></o:p></span></li>
-   <li class=MsoNormal style='mso-list:l5 level1 lfo7;tab-stops:list 36.0pt'><span
-       style='font-family:Verdana'>Redubbelt &auml;r alltid SOS.<o:p></o:p></span></li>
-   <li class=MsoNormal style='mso-list:l5 level1 lfo7;tab-stops:list 36.0pt'><span
-       style='font-family:Verdana'>1NT-inklivet visar 15-18 och f&ouml;rnekar bra
-       4+korts h&ouml;gf&auml;rg.<o:p></o:p></span></li>
-   <li class=MsoNormal style='mso-list:l5 level1 lfo7;tab-stops:list 36.0pt'><span
-       style='font-family:Verdana'>2NT-inklivet visar tv&aring; l&auml;gsta objudna.<o:p></o:p></span></li>
-   <li class=MsoNormal style='mso-list:l5 level1 lfo7;tab-stops:list 36.0pt'><span
-       style='font-family:Verdana'>Hoppinkliv visar 6-kortsf&auml;rg och f&ouml;rnekar
-       &ouml;ppningsstyrka.<o:p></o:p></span></li>
-  </ul>
-  <p class=MsoNormal><span style='font-family:Verdana'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
-  <p class=MsoNormal><span style='font-family:Verdana'>Den fortsatta
-  budgivningen inneh&aring;ller inget v&auml;senskilt fr&aring;n vad numera anses vara
-  standard.<span style="mso-spacerun: yes">  </span>Ett par ord om budgivningen
-  efter 1-l&auml;gesinkliv kan dock vara p&aring; sin plats.<o:p></o:p></span></p>
-  <p class=MsoNormal><span style='font-family:Verdana'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
-  <p class=MsoNormal><span style='font-family:Verdana'>Efter 1-l&auml;gesinkliv
-  lovar enkelh&ouml;jningar minst 4-kortsst&ouml;d och dubbla (eller h&ouml;gre) h&ouml;jningar
-  lovar 5+st&ouml;d.<span style="mso-spacerun: yes">  </span>B&aring;de enkel och
-  dubbelh&ouml;jningen &auml;r konstruktiva, d v s l&aring;ngt ifr&aring;n &quot;moderna&quot;.<span
-  style="mso-spacerun: yes">  </span>Bjuder inklivshandens partner 1NT lovar
-  detta inte h&aring;ll utan &auml;r mer styrkevisande (dock okrav).<span
-  style="mso-spacerun: yes">  </span>Visar inklivshanden 2 f&auml;rger visar en
-  preferens till inklivsf&auml;rgen till&auml;ggsv&auml;rden.<span style="mso-spacerun: yes"> 
-  </span>&Ouml;verbud i &ouml;ppningsf&auml;rgen &auml;r generellt kravbud i de flesta l&auml;gen. <o:p></o:p></span></p>
-  <p class=MsoNormal><span style='font-family:Verdana'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
-  <p class=MsoHeader style='tab-stops:65.2pt'><b><span style='font-size:8.0pt;
-  font-family:Verdana'>Variationer: </span></b><span style='font-family:Verdana'>Uppmanas
-  l&auml;sarna att bidra med!<o:p></o:p></span></p>
-  </td>
- </tr>
-</table>
-
-<p class=MsoHeader style='tab-stops:65.2pt'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
-
-<table border=0 cellspacing=0 cellpadding=0 width=591 style='width:442.95pt;
- border-collapse:collapse;mso-padding-alt:0cm 3.5pt 0cm 3.5pt'>
- <tr>
-  <td width=151 valign=top style='width:4.0cm;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><b><span style='font-size:8.0pt;font-family:Verdana'>L&auml;nkar:<o:p></o:p></span></b></p>
-  </td>
-  <td width=439 valign=top style='width:329.55pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><span
-  style='font-family:Verdana'><o:p></o:p></span></p>
-  </td>
- </tr>
- <tr>
-  <td width=151 valign=top style='width:4.0cm;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><b><span style='font-size:8.0pt;font-family:Verdana'>Version
-  &amp; datum:<o:p></o:p></span></b></p>
-  </td>
-  <td width=439 valign=top style='width:329.55pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>1 - <span
-  style='mso-field-code:"DATE  \\* MERGEFORMAT"'>2002-02-07</span><o:p></o:p></span></p>
-  </td>
- </tr>
- <tr>
-  <td width=151 valign=top style='width:4.0cm;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><b><span style='font-size:8.0pt;font-family:Verdana'>Beskrivet
-  av:<o:p></o:p></span></b></p>
-  </td>
-  <td width=439 valign=top style='width:329.55pt;padding:0cm 3.5pt 0cm 3.5pt'>
-  <p class=MsoNormal><span style='font-family:Verdana'>Christer Enkvist<o:p></o:p></span></p>
-  </td>
- </tr>
-</table>
-
-<p class=MsoHeader style='tab-stops:65.2pt'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
-
-</div>
-
-</body>
-
-</html>
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=FrontPage.Editor.Document>
+<meta name=Generator content="Microsoft FrontPage 4.0">
+<meta name=Originator content="Microsoft Word 9">
+<link rel=File-List href="./002_efos_01-filer/filelist.xml">
+<title>syskon</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Sven-Olov Flodqvist</o:Author>
+  <o:Template>SysKon.dot</o:Template>
+  <o:LastAuthor>Sven-Olov Flodqvist</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>10</o:TotalTime>
+  <o:Created>2002-02-07T18:46:00Z</o:Created>
+  <o:LastSaved>2002-02-07T18:46:00Z</o:LastSaved>
+  <o:Pages>5</o:Pages>
+  <o:Words>1771</o:Words>
+  <o:Characters>10097</o:Characters>
+  <o:Company>Syskon</o:Company>
+  <o:Version>9.4402</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:AttachedTemplate
+   HRef="C:\Documents and Settings\sof\Application Data\Microsoft\Mallar\SysKon.dot"></w:AttachedTemplate>
+  <w:HyphenationZone>21</w:HyphenationZone>
+  <w:DoNotHyphenateCaps/>
+  <w:PunctuationKerning/>
+  <w:DisplayHorizontalDrawingGridEvery>0</w:DisplayHorizontalDrawingGridEvery>
+  <w:DisplayVerticalDrawingGridEvery>0</w:DisplayVerticalDrawingGridEvery>
+  <w:UseMarginsForDrawingGridOrigin/>
+  <w:Compatibility>
+   <w:WW6BorderRules/>
+   <w:FootnoteLayoutLikeWW8/>
+   <w:ShapeLayoutLikeWW8/>
+   <w:AlignTablesRowByRow/>
+   <w:ForgetLastTabAlignment/>
+   <w:LayoutRawTableWidth/>
+   <w:LayoutTableRowsApart/>
+  </w:Compatibility>
+ </w:WordDocument>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+@font-face
+	{font-family:Verdana;
+	panose-1:2 11 6 4 3 5 4 4 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:536871559 0 0 0 415 0;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+h1
+	{mso-style-next:Normal;
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:36.0pt;
+	margin-left:0cm;
+	text-indent:0cm;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	mso-list:l0 level1 lfo1;
+	tab-stops:49.5pt;
+	mso-layout-grid-align:none;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	border:none;
+	mso-border-bottom-alt:solid windowtext 1.5pt;
+	padding:0cm;
+	mso-padding-alt:0cm 0cm 30.0pt 0cm;
+	font-size:18.0pt;
+	font-family:"Times New Roman";
+	mso-font-kerning:14.0pt;}
+h2
+	{mso-style-next:Normal;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:49.3pt;
+	text-indent:-49.3pt;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:2;
+	mso-list:l0 level2 lfo2;
+	tab-stops:50.4pt;
+	mso-layout-grid-align:none;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:14.0pt;
+	font-family:"Times New Roman";}
+h3
+	{mso-style-next:Normal;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:3;
+	font-size:10.0pt;
+	font-family:Verdana;
+	font-weight:normal;
+	font-style:italic;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:center 8.0cm right 16.0cm;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoBodyText, li.MsoBodyText, div.MsoBodyText
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoBodyTextIndent, li.MsoBodyTextIndent, div.MsoBodyTextIndent
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:1.0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:Verdana;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	font-style:italic;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+p.NotesX, li.NotesX, div.NotesX
+	{mso-style-name:"Notes X\!";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:36.0pt;
+	text-indent:-36.0pt;
+	mso-pagination:widow-orphan;
+	mso-layout-grid-align:none;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	font-style:italic;}
+p.Notes, li.Notes, div.Notes
+	{mso-style-name:"Notes\!";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:27.0pt;
+	text-indent:-27.0pt;
+	mso-pagination:widow-orphan;
+	mso-layout-grid-align:none;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	font-style:italic;}
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:70.85pt 70.85pt 70.85pt 70.85pt;
+	mso-header-margin:36.0pt;
+	mso-footer-margin:36.0pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+@list l0
+	{mso-list-id:-5;
+	mso-list-template-ids:-1616350426;}
+@list l0:level1
+	{mso-level-style-link:"Rubrik 1";
+	mso-level-text:%1;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	mso-level-legacy:yes;
+	mso-level-legacy-indent:0cm;
+	mso-level-legacy-space:0cm;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l0:level2
+	{mso-level-style-link:"Rubrik 2";
+	mso-level-text:"%1\.%2";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	mso-level-legacy:yes;
+	mso-level-legacy-indent:0cm;
+	mso-level-legacy-space:0cm;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l0:level3
+	{mso-level-text:"%1\.%2\.%3";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	mso-level-legacy:yes;
+	mso-level-legacy-indent:0cm;
+	mso-level-legacy-space:0cm;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l0:level4
+	{mso-level-text:"%1\.%2\.%3\.%4";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	mso-level-legacy:yes;
+	mso-level-legacy-indent:0cm;
+	mso-level-legacy-space:0cm;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l0:level5
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	mso-level-legacy:yes;
+	mso-level-legacy-indent:0cm;
+	mso-level-legacy-space:0cm;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l0:level6
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	mso-level-legacy:yes;
+	mso-level-legacy-indent:0cm;
+	mso-level-legacy-space:0cm;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l0:level7
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	mso-level-legacy:yes;
+	mso-level-legacy-indent:0cm;
+	mso-level-legacy-space:0cm;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l0:level8
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	mso-level-legacy:yes;
+	mso-level-legacy-indent:0cm;
+	mso-level-legacy-space:0cm;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l0:level9
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	mso-level-legacy:yes;
+	mso-level-legacy-indent:0cm;
+	mso-level-legacy-space:0cm;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l1
+	{mso-list-id:21590694;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1094755364 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l1:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;
+	mso-bidi-font-family:"Times New Roman";}
+@list l1:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l1:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;
+	mso-bidi-font-family:"Times New Roman";}
+@list l1:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;
+	mso-bidi-font-family:"Times New Roman";}
+@list l1:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l1:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;
+	mso-bidi-font-family:"Times New Roman";}
+@list l1:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;
+	mso-bidi-font-family:"Times New Roman";}
+@list l1:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l1:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;
+	mso-bidi-font-family:"Times New Roman";}
+@list l2
+	{mso-list-id:420299810;
+	mso-list-type:hybrid;
+	mso-list-template-ids:976123260 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l2:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;
+	mso-bidi-font-family:"Times New Roman";}
+@list l2:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l2:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;
+	mso-bidi-font-family:"Times New Roman";}
+@list l2:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;
+	mso-bidi-font-family:"Times New Roman";}
+@list l2:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l2:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;
+	mso-bidi-font-family:"Times New Roman";}
+@list l2:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;
+	mso-bidi-font-family:"Times New Roman";}
+@list l2:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l2:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;
+	mso-bidi-font-family:"Times New Roman";}
+@list l3
+	{mso-list-id:1458252681;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-871453170 67698711 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l3:level1
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%1\)";
+	mso-level-tab-stop:18.0pt;
+	mso-level-number-position:left;
+	margin-left:18.0pt;
+	text-indent:-18.0pt;}
+@list l3:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:54.0pt;
+	mso-level-number-position:left;
+	margin-left:54.0pt;
+	text-indent:-18.0pt;}
+@list l3:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:90.0pt;
+	mso-level-number-position:right;
+	margin-left:90.0pt;
+	text-indent:-9.0pt;}
+@list l3:level4
+	{mso-level-tab-stop:126.0pt;
+	mso-level-number-position:left;
+	margin-left:126.0pt;
+	text-indent:-18.0pt;}
+@list l3:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:162.0pt;
+	mso-level-number-position:left;
+	margin-left:162.0pt;
+	text-indent:-18.0pt;}
+@list l3:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:198.0pt;
+	mso-level-number-position:right;
+	margin-left:198.0pt;
+	text-indent:-9.0pt;}
+@list l3:level7
+	{mso-level-tab-stop:234.0pt;
+	mso-level-number-position:left;
+	margin-left:234.0pt;
+	text-indent:-18.0pt;}
+@list l3:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:270.0pt;
+	mso-level-number-position:left;
+	margin-left:270.0pt;
+	text-indent:-18.0pt;}
+@list l3:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:306.0pt;
+	mso-level-number-position:right;
+	margin-left:306.0pt;
+	text-indent:-9.0pt;}
+@list l4
+	{mso-list-id:1799182175;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1074165122 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l4:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;
+	mso-bidi-font-family:"Times New Roman";}
+@list l4:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l4:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;
+	mso-bidi-font-family:"Times New Roman";}
+@list l4:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;
+	mso-bidi-font-family:"Times New Roman";}
+@list l4:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l4:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;
+	mso-bidi-font-family:"Times New Roman";}
+@list l4:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;
+	mso-bidi-font-family:"Times New Roman";}
+@list l4:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l4:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;
+	mso-bidi-font-family:"Times New Roman";}
+@list l5
+	{mso-list-id:1896115243;
+	mso-list-type:hybrid;
+	mso-list-template-ids:409655926 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l5:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;
+	mso-bidi-font-family:"Times New Roman";}
+@list l5:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l5:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;
+	mso-bidi-font-family:"Times New Roman";}
+@list l5:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;
+	mso-bidi-font-family:"Times New Roman";}
+@list l5:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l5:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;
+	mso-bidi-font-family:"Times New Roman";}
+@list l5:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;
+	mso-bidi-font-family:"Times New Roman";}
+@list l5:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l5:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;
+	mso-bidi-font-family:"Times New Roman";}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+</head>
+
+<body lang=SV link=blue vlink=purple style='tab-interval:65.2pt'>
+
+<div class=Section1>
+
+<p class=MsoHeader style='tab-stops:65.2pt'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<table border=0 cellspacing=0 cellpadding=0 style='border-collapse:collapse;
+ mso-padding-alt:0cm 3.5pt 0cm 3.5pt'>
+ <tr>
+  <td width=614 valign=top style='width:460.6pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><b><span lang=EN-US style='font-size:8.0pt;font-family:
+  Verdana;mso-ansi-language:EN-US'>System:</span></b><span lang=EN-US
+  style='font-size:8.0pt;font-family:Verdana;mso-ansi-language:EN-US'> </span><span
+  lang=EN-US style='font-family:Verdana;mso-ansi-language:EN-US'>EFOS
+  (Economical Forcing System)<o:p></o:p></span></p>
+  <p class=MsoHeader style='tab-stops:65.2pt'><span lang=EN-US
+  style='font-family:Verdana;mso-ansi-language:EN-US'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+  <p class=MsoNormal><b><span style='font-size:8.0pt;font-family:Verdana'>Ursprung:
+  </span></b><span style='font-family:Verdana'>Jan Wohlin, Nils-Olof
+  Lillieh&ouml;&ouml;k. Denna redog&ouml;relse baseras p&aring; en artikel av Lillieh&ouml;&ouml;k runt 1960.
+  Systemet vidareutvecklades under hela 60-talet.<o:p></o:p></span></p>
+  <p class=MsoHeader style='tab-stops:65.2pt'><span style='font-family:Verdana'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+  <p class=MsoNormal><b><span style='font-size:8.0pt;font-family:Verdana'>Skapat
+  datum: </span></b><span style='font-family:Verdana'>Slutet av 1940-talet</span><b><span
+  style='font-size:8.0pt;font-family:Verdana'> </span></b><span
+  style='font-family:Verdana'><o:p></o:p></span></p>
+  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+  <p class=MsoHeader style='tab-stops:65.2pt'><b><span style='font-size:8.0pt;
+  font-family:Verdana'>Syfte: </span></b><span style='font-family:Verdana'>M&aring;let
+  med EFOS &auml;r att kombinera ett naturligt system som bygger p&aring; &ouml;msesidigt
+  utbytande av information med ett som bygger p&aring; konventionella kravbud.<span
+  style="mso-spacerun: yes">  </span>Antingen utbyter spelarna information och
+  f&ouml;rs&ouml;ker tillsammans hitta b&auml;sta slutbud eller fr&aring;gar den ene spelaren
+  (kaptenen) efter upplysningar f&ouml;r att sedan sj&auml;lvsv&aring;ldigt fastst&auml;lla
+  slutbudet.<o:p></o:p></span></p>
+  <p class=MsoHeader style='tab-stops:65.2pt'><span style='font-family:Verdana'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+  <p class=MsoHeader style='tab-stops:65.2pt'><span style='font-family:Verdana'>EFOS
+  blev 1949 godk&auml;nt f&ouml;r spel i b&aring;de internationella s&aring;v&auml;l som nationella
+  t&auml;vlingar efter att helt eller delvis varit f&ouml;rbjudet under ett par &aring;r.<span
+  style="mso-spacerun: yes">  </span>Systemet &auml;r fortfarande klassat som
+  &quot;r&ouml;tt&quot;, d v s sn&auml;ppet under giftklassen &quot;Highly Unusual Methods&quot;
+  (HUM).<span style="mso-spacerun: yes">  </span>S&aring; f&ouml;rleds icke av systemets
+  &aring;lder och de Culbertsonska dragen - under ytan hittas rel&auml;bud,
+  canapébudgivningar och sist men inte minst, superaggressiva 3-korts inkliv! <o:p></o:p></span></p>
+  <p class=MsoHeader style='tab-stops:65.2pt'><span style='font-family:Verdana'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+  <p class=MsoHeader style='tab-stops:65.2pt'><b><span style='font-family:Verdana'>Beskrivning</span></b></p>
+  <p class=MsoNormal><i><span style='font-family:Verdana'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></i></p>
+  <p class=MsoNormal><i><span style='font-family:Verdana'>&Ouml;ppningsbud <o:p></o:p></span></i></p>
+  <p class=MsoNormal><span style='font-family:Verdana'>Handen v&auml;rderas i EFOS
+  normalt i honn&ouml;rs- och f&ouml;rdelningspo&auml;ng, d v s vad som i tidernas begynnelse
+  kallades &quot;punkter&quot;.<span style="mso-spacerun: yes"> 
+  </span>F&ouml;rdelningspo&auml;ngen r&auml;knas som 3-2-1 f&ouml;r renons-singel-dubbelton.<span
+  style="mso-spacerun: yes">  </span>Po&auml;nggr&auml;nser i detta dokument anges i &quot;punkter&quot;
+  om annat ej speciellt anges.<o:p></o:p></span></p>
+  <p class=MsoNormal><span style='font-family:Verdana'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+  <p class=MsoNormal><span style='font-family:Verdana'>I EFOS anv&auml;nds enbart
+  naturliga 4+korts &ouml;ppningsbud och oftast i kombination med starka 2-&ouml;ppningar
+  (3-korts 1</span><span style='font-family:Symbol'>&clubs;</span><span
+  style='font-family:Verdana'>-&ouml;ppning kan i vissa EFOS-dialekter
+  f&ouml;rekomma).<span style="mso-spacerun: yes">  </span>&Ouml;ppningsbudet 1NT visar
+  balanshand och 16-18.<span style="mso-spacerun: yes">  </span><o:p></o:p></span></p>
+  <p class=MsoNormal><span style='font-family:Verdana'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+  <p class=MsoNormal><span style='font-family:Verdana'>Eftersom &ouml;ppningshanden
+  inte vet om den fortsatta budgivningen kommer att vara naturlig eller om svarshanden
+  kommer att ta kommandot b&ouml;r &ouml;ppningshanden v&auml;lja &ouml;ppningsbud s&aring; att den
+  fortsatta budgivingen - om svarshanden v&auml;ljer att kr&auml;va med rel&auml;budet - blir
+  s&aring; informativ som m&ouml;jligt.<o:p></o:p></span></p>
+  <p class=MsoNormal><span style='font-family:Verdana'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+  <ul style='margin-top:0cm' type=disc>
+   <li class=MsoNormal style='mso-list:l2 level1 lfo3;tab-stops:list 36.0pt'><span
+       style='font-family:Verdana'>Med svag &ouml;ppningshand (mindre &auml;n ca 18
+       punkter) och 4-5 i tv&aring; n&auml;rliggande f&auml;rger b&ouml;r man - oavsett f&auml;rgl&auml;ngd -
+       v&auml;lja att &ouml;ppna i den h&ouml;gre.<o:p></o:p></span></li>
+   <li class=MsoNormal style='mso-list:l2 level1 lfo3;tab-stops:list 36.0pt'><span
+       style='font-family:Verdana'>Med tv&aring; lika l&aring;nga, ej n&auml;rliggande (ex </span><span
+       style='font-family:Symbol'>&spades;<span style='color:red'>&diams;</span></span><span
+       style='font-family:Verdana'>), 4+kortsf&auml;rger &ouml;ppnas med den l&auml;gre <o:p></o:p></span></li>
+   <li class=MsoNormal style='mso-list:l2 level1 lfo3;tab-stops:list 36.0pt'><span
+       style='font-family:Verdana'>Med tv&aring; lika l&aring;nga n&auml;rliggande 4+kortsf&auml;rger
+       &ouml;ppnas med den h&ouml;gre (med 5-5 i </span><span style='font-family:Symbol'>&clubs;&spades;
+       </span><span style='font-family:Verdana'>&ouml;ppnas dock med 1</span><span
+       style='font-family:Symbol'>&clubs;</span><span style='font-family:Verdana'>).<o:p></o:p></span></li>
+   <li class=MsoNormal style='mso-list:l2 level1 lfo3;tab-stops:list 36.0pt'><span
+       style='font-family:Verdana'>Med 4441 &ouml;ppnas med f&auml;rgen under singelton.<o:p></o:p></span></li>
+   <li class=MsoNormal style='mso-list:l2 level1 lfo3;tab-stops:list 36.0pt'><span
+       style='font-family:Verdana'>Med 4-5 i </span><span style='font-family:
+       Symbol;color:red'>&hearts;</span><span style='font-family:Verdana'>-</span><span
+       style='font-family:Symbol'>&clubs;</span><span style='font-family:Verdana'><span
+       style="mso-spacerun: yes">  </span>&ouml;ppnas alltid med 1</span><span
+       style='font-family:Symbol;color:red'>&hearts;</span><span style='font-family:
+       Verdana'>.<o:p></o:p></span></li>
+  </ul>
+  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+  <p class=MsoNormal><i><span style='font-family:Verdana'>Svarsbud<o:p></o:p></span></i></p>
+  <p class=MsoNormal><span style='font-family:Verdana'>Svarshanden kan antingen
+  visa sin hand t&auml;mligen naturligt eller kr&auml;va med n&auml;rmaste f&auml;rgbud (2</span><span
+  style='font-family:Symbol'>&clubs; </span><span style='font-family:Verdana'>p&aring; 1</span><span
+  style='font-family:Symbol'>&spades;</span><span style='font-family:Verdana'>).<span
+  style="mso-spacerun: yes">  </span>2-&ouml;ver-1 kan avges p&aring; svaga kort f&ouml;rutsatt
+  att f&auml;rgen &auml;r minst 6-korts.<span style="mso-spacerun: yes"> 
+  </span>Uppspaltat &auml;r svarsbuden:</span><span style='font-size:8.0pt;
+  font-family:Verdana'><o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoHeader style='tab-stops:65.2pt'><b><span style='font-family:Verdana'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></b></p>
+
+<table border=0 cellspacing=0 cellpadding=0 width=590 style='width:442.25pt;
+ margin-left:.4pt;border-collapse:collapse;mso-padding-alt:0cm 3.5pt 0cm 3.5pt'>
+ <tr>
+  <td width=136 valign=top style='width:102.35pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>rel&auml;f&auml;rgen<o:p></o:p></span></p>
+  </td>
+  <td width=453 valign=top style='width:339.9pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>Konventionellt krav som
+  ber &ouml;ppningshanden beskriva sin hand <b>eller</b> naturligt rondkrav.<span
+  style="mso-spacerun: yes">  </span>Notera att kravbudet <b>inte</b> lovar
+  styrka - det avges &auml;ven p&aring; kort f&ouml;r d&aring;liga f&ouml;r 1NT!<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=136 valign=top style='width:102.35pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>1-&ouml;ver-1<o:p></o:p></span></p>
+  </td>
+  <td width=453 valign=top style='width:339.9pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>Naturliga rondkrav, 1</span><span
+  style='font-family:Symbol;color:red'>&hearts;</span><span style='font-family:Verdana'>/</span><span
+  style='font-family:Symbol'>&spades;</span><span style='font-family:Verdana'> visar
+  normalt 5+kortsf&auml;rg<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=136 valign=top style='width:102.35pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>2-&ouml;ver-1<o:p></o:p></span></p>
+  </td>
+  <td width=453 valign=top style='width:339.9pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>Naturliga rondkrav,
+  normalt minst stark 5+kortsf&auml;rg (kan ha s&aring; lite som 6+)<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=136 valign=top style='width:102.35pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>1NT<o:p></o:p></span></p>
+  </td>
+  <td width=453 valign=top style='width:339.9pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>9-11 (efter 1</span><span
+  style='font-family:Symbol'>&spades;</span><span style='font-family:Verdana'> dock
+  5-9)<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=136 valign=top style='width:102.35pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>2NT<o:p></o:p></span></p>
+  </td>
+  <td width=453 valign=top style='width:339.9pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>13-14 balanserad (efter
+  1</span><span style='font-family:Symbol'>&spades;</span><span style='font-family:
+  Verdana'> visas denna hand med 2</span><span style='font-family:Symbol'>&clubs;</span><span
+  style='font-family:Verdana'> f&ouml;ljt av 2NT)<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=136 valign=top style='width:102.35pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>3NT<o:p></o:p></span></p>
+  </td>
+  <td width=453 valign=top style='width:339.9pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>15-16 balanserad<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=136 valign=top style='width:102.35pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>Hopp i rel&auml;f&auml;rgen<o:p></o:p></span></p>
+  </td>
+  <td width=453 valign=top style='width:339.9pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;mso-list:
+  l3 level1 lfo4;tab-stops:list 18.0pt'><![if !supportLists]><span
+  style='font-family:Verdana'>a)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><![endif]><span style='font-family:Verdana'>17-19 balans<o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;mso-list:
+  l3 level1 lfo4;tab-stops:list 18.0pt'><![if !supportLists]><span
+  style='font-family:Verdana'>b)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><![endif]><span style='font-family:Verdana'>Utg&aring;ngskrav (13+)
+  med 6-kortsf&auml;rg<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=136 valign=top style='width:102.35pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>Hoppande borttag<o:p></o:p></span></p>
+  </td>
+  <td width=453 valign=top style='width:339.9pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>Utg&aring;ngskrav (13+) med
+  6+kortsf&auml;rg <o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=136 valign=top style='width:102.35pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>Enkelh&ouml;jning<o:p></o:p></span></p>
+  </td>
+  <td width=453 valign=top style='width:339.9pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>Svagt med 4-kortsst&ouml;d<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=136 valign=top style='width:102.35pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>Dubbelh&ouml;jning<o:p></o:p></span></p>
+  </td>
+  <td width=453 valign=top style='width:339.9pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>Begr&auml;nsat utg&aring;ngskrav
+  med 4+kortsst&ouml;d (normalt utan bra sidof&auml;rg)<o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoHeader style='tab-stops:65.2pt'><b><span style='font-family:Verdana'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></b></p>
+
+<table border=0 cellspacing=0 cellpadding=0 style='border-collapse:collapse;
+ mso-padding-alt:0cm 3.5pt 0cm 3.5pt'>
+ <tr>
+  <td width=591 valign=top style='width:442.95pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>Den fortsatta
+  budgivningen &auml;r efter 1-&ouml;ver-1 och 2-&ouml;ver-1 i princip som i Culbertson -
+  givetvis med undantag av budgivingen efter <a
+  href="#_Fortsatt_budgivning_efter">rel&auml;kravet</a>!<o:p></o:p></span></p>
+  <p class=MsoNormal><span style='font-family:Verdana'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+  <h3>Svarshandens aktioner med trumfst&ouml;d</h3>
+  <p class=MsoNormal><span style='font-family:Verdana'>Med 4+st&ouml;d och svaga
+  kort h&ouml;jer svarshanden enkelt, med 4+st&ouml;d och kort till utg&aring;ng men intet mer
+  hoppas i &ouml;ppningsf&auml;rgen om inte egen bra sidof&auml;rg finnes - i detta fall visas
+  sidof&auml;rgen f&ouml;rst och svarshanden bjuder sedan ut utg&aring;ngen.<span
+  style="mso-spacerun: yes">  </span>N&auml;r svarshanden har st&ouml;d och invitstyrka
+  bjuder man egen f&auml;rg f&ouml;r att sedan &aring;terkomma med &ouml;ppningsf&auml;rgen (hopp om
+  preferenssituation uppkommit).<span style="mso-spacerun: yes">  </span>Med
+  st&ouml;d och slamintresse mot god &ouml;ppningshand inleds med <a
+  href="#_Svarshandens_&aring;terbud_efter">rel&auml;kravet</a>.<o:p></o:p></span></p>
+  <p class=MsoNormal><span style='font-family:Verdana'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+  <h3>Fortsatt budgivning efter rel&auml;kravet<a name="_Fortsatt_budgivning_efter"></a></h3>
+  <p class=MsoNormal><span style='font-family:Verdana'>Grundtanken bakom
+  kaptensbuden &auml;r att &ouml;ppningshanden lydigt - med hj&auml;lp av naturliga bud -
+  skall beskriva sin hand s&aring; l&auml;nge svarshanden s&aring; &ouml;nskar.<span
+  style="mso-spacerun: yes">   </span>&Auml;ven om rel&auml;kravet inte lovar 4-kortsf&auml;rg
+  &aring;terbjuder &ouml;ppningshanden, i princip, som om budet visade 4-kortsf&auml;rg.<span
+  style="mso-spacerun: yes">  </span>Orsaken till detta &auml;r att rel&auml;budet &auml;ven
+  bjuds med svaga h&auml;nder och just rel&auml;f&auml;rgen (f&ouml;rutom att systemet som helhet
+  har en str&auml;van att bjuda &quot;naturligt&quot; om s&aring; m&ouml;jligt &auml;r).<span
+  style="mso-spacerun: yes">  </span>&Ouml;ppningshanden f&ouml;ljer f&ouml;ljande riktlinjer:<o:p></o:p></span></p>
+  <p class=MsoNormal><span style='font-family:Verdana'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+  <ul style='margin-top:0cm' type=disc>
+   <li class=MsoNormal style='mso-list:l4 level1 lfo5;tab-stops:list 36.0pt'><span
+       style='font-family:Verdana'>Enkelh&ouml;jningen av rel&auml;f&auml;rgen visar
+       4+kortsst&ouml;d och &auml;r styrkeneutralt.<o:p></o:p></span></li>
+   <li class=MsoNormal style='mso-list:l4 level1 lfo5;tab-stops:list 36.0pt'><span
+       style='font-family:Verdana'>Dubbelh&ouml;jning av rel&auml;f&auml;rgen visar
+       5+kortsst&ouml;d och till&auml;ggsv&auml;rden.<o:p></o:p></span></li>
+   <li class=MsoNormal style='mso-list:l4 level1 lfo5;tab-stops:list 36.0pt'><span
+       style='font-family:Verdana'>Med 13-15 balans bjuds ny f&auml;rg eller sang p&aring;
+       samma niv&aring; som kaptensbudet. <o:p></o:p></span></li>
+   <li class=MsoNormal style='mso-list:l4 level1 lfo5;tab-stops:list 36.0pt'><span
+       style='font-family:Verdana'>Med 17-19 balans hoppas i sang<o:p></o:p></span></li>
+   <li class=MsoNormal style='mso-list:l4 level1 lfo5;tab-stops:list 36.0pt'><span
+       style='font-family:Verdana'>&Aring;terkommer &ouml;ppningshanden i &ouml;ppningsf&auml;rgen
+       visas 6-kortsf&auml;rg (hopp med till&auml;ggsv&auml;rden)<o:p></o:p></span></li>
+   <li class=MsoNormal style='mso-list:l4 level1 lfo5;tab-stops:list 36.0pt'><span
+       style='font-family:Verdana'>Ny f&auml;rg visar obalanserad hand och minst 5-4
+       i de visade f&auml;rgerna (hopp i ny f&auml;rg visar till&auml;ggsv&auml;rden).<span
+       style="mso-spacerun: yes">  </span>Ett undantag &auml;r dock &aring;terbudet 1</span><span
+       style='font-family:Symbol'>&spades;</span><span style='font-family:Verdana'>
+       som blott visar 4-korts </span><span style='font-family:Symbol'>&spades;</span><span
+       style='font-family:Verdana'> (om (4432)) dock &auml;r &aring;terbudet 1</span><span
+       style='font-family:Symbol;color:red'>&hearts;</span><span style='font-family:
+       Verdana'> normalt 5-4, men kan &auml;ven bjudas med 4441-f&ouml;rdelning.<span
+       style="mso-spacerun: yes">  </span><o:p></o:p></span></li>
+  </ul>
+  <p class=MsoNormal style='margin-left:18.0pt'><span style='font-family:Verdana'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+  <h3>Svarshandens &aring;terbud efter rel&auml;kravsinledning (med trumfst&ouml;d i
+  &ouml;ppningsf&auml;rg)<a name="_Svarshandens_&aring;terbud_efter"></a></h3>
+  <p class=MsoNormal><span style='font-family:Verdana'>&Aring;terkommer svarshanden
+  med trumfst&ouml;dsvisande bud i &ouml;ppningsf&auml;rgen s&aring; visar det p&aring; l&auml;gsta niv&aring; en
+  stark invit (bra limit-h&ouml;jning), med starkare kort &auml;n f&ouml;r en direkt
+  dubbelh&ouml;jning inleder svarshanden med rel&auml;kravet, &aring;terkommer med
+  reversebud/ny f&auml;rg p&aring; 3-l&auml;get f&ouml;r att slutligen bjuda utg&aring;ng i
+  &ouml;ppningsf&auml;rgen. <o:p></o:p></span></p>
+  <p class=MsoNormal><span style='font-family:Verdana'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+  <h3>Svarshandens &aring;terbud efter rel&auml;kravsinledning (utan trumfst&ouml;d i
+  &ouml;ppningsf&auml;rgen)</h3>
+  <p class=MsoNormal><span style='font-family:Verdana'>Svarshanden kan f&ouml;rnya
+  sin utfr&aring;gning av &ouml;ppningshanden och samtidigt etablera utg&aring;ngskrav genom
+  l&auml;gsta reversebud eller hopp i ny f&auml;rg p&aring; 3-tricksniv&aring;n.<span
+  style="mso-spacerun: yes">  </span>&Ouml;vriga &aring;terbud skall tolkas som naturliga
+  okravsbud.<span style="mso-spacerun: yes">  </span>Efter ett upprepat
+  kaptensbud skall &ouml;ppningshanden forts&auml;tta sin naturliga beskrivning av handen
+  genom att &aring;terigen avge l&auml;gsta m&ouml;jliga beskrivande bud.<o:p></o:p></span></p>
+  <p class=MsoNormal><span style='font-family:Verdana'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+  <h3>Slamkonventioner</h3>
+  <p class=MsoNormal><span style='font-family:Verdana'>EFOS har inga egna
+  specialknep utan lutar sig i huvudsak mot<o:p></o:p></span></p>
+  <p class=MsoNormal><span style='font-family:Verdana'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+  <ul style='margin-top:0cm' type=disc>
+   <li class=MsoNormal style='mso-list:l1 level1 lfo6;tab-stops:list 36.0pt'><span
+       style='font-family:Verdana'>Culbertsons f&auml;rgfr&aring;gebud<o:p></o:p></span></li>
+   <li class=MsoNormal style='mso-list:l1 level1 lfo6;tab-stops:list 36.0pt'><span
+       style='font-family:Verdana'>Blackwood (5 ess samt reducerad om </span><span
+       style='font-family:Symbol'>&clubs;</span><span style='font-family:Verdana'> &auml;r
+       trumf)<o:p></o:p></span></li>
+   <li class=MsoNormal style='mso-list:l1 level1 lfo6;tab-stops:list 36.0pt'><span
+       style='font-family:Verdana'>Fria 5NT<o:p></o:p></span></li>
+  </ul>
+  <p class=MsoNormal><span style='font-family:Verdana'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+  <p class=MsoNormal><span style='font-family:Verdana'>Med f&ouml;ljande
+  modifikationer: Efter f&auml;rgfr&aring;gebud har svarshanden r&auml;tt att visa flera
+  andrakontroller samtidigt och/eller andrakontroll i sidof&auml;rg om motsvarande
+  f&ouml;rstakontroller tidigare f&ouml;rnekats.<span style="mso-spacerun: yes"> 
+  </span>Efter fria 5NT visar bud (om utrymmet till&aring;ter) n&auml;rmast under trumf
+  ess eller kung i trumf och bud tv&aring; steg under trumf visar trumfdam eller en
+  extra trumf.<o:p></o:p></span></p>
+  <p class=MsoNormal><span style='font-family:Verdana'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+  <h3 style='margin-right:163.8pt'>EFOS-sangen<a name="_EFOS_sangen"></a></h3>
+  <p class=MsoNormal><span style='font-family:Verdana'>&Ouml;ppningsbudet 1NT visar
+  16-18 och en balanserad hand.<span style="mso-spacerun: yes">  </span>6332
+  med 6-korts l&aring;gf&auml;rg och 22 (54) accepteras om honn&ouml;rsf&ouml;rdelningen &auml;r
+  passande. <o:p></o:p></span></p>
+  <p class=MsoNormal><span style='font-family:Verdana'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+  <p class=MsoNormal><span style='font-family:Verdana'>Det har givetvis under
+  EFOS-sangens livstid (mer &auml;n 60 &aring;r!) utvecklats ett otal varianter, den h&auml;r
+  beskrivna &auml;r vare sig den b&auml;sta eller den senaste - har du synpunkter s&aring;
+  skicka g&auml;rna in ditt bidrag till <a href="http://www.syskon.nu/">http://www.syskon.nu/</a>!<span
+  style="mso-spacerun: yes">  </span>N&aring;v&auml;l, tillbaks till EFOS, efter
+  1NT-&ouml;ppningen har svarshanden f&ouml;ljande alternativ till sitt f&ouml;rfogande:</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoHeader style='tab-stops:65.2pt'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<table border=0 cellspacing=0 cellpadding=0 width=590 style='width:442.25pt;
+ margin-left:2.0pt;border-collapse:collapse;mso-padding-alt:0cm 3.5pt 0cm 3.5pt'>
+ <tr>
+  <td width=73 valign=top style='width:55.1pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>2</span><span
+  style='font-family:Symbol'>&clubs;</span></p>
+  </td>
+  <td width=516 valign=top style='width:387.15pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>H&ouml;gf&auml;rgsfr&aring;ga<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=73 valign=top style='width:55.1pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>2</span><span
+  style='font-family:Symbol;color:red'>&diams;</span><span style='font-family:Verdana'><o:p></o:p></span></p>
+  </td>
+  <td width=516 valign=top style='width:387.15pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>&Ouml;verf&ouml;ring till </span><span
+  style='font-family:Symbol;color:red'>&hearts;</span><span style='font-family:Verdana'>
+  eller </span><span style='font-family:Symbol'>&clubs;</span><span style='font-family:
+  Verdana'> (starkt eller svagt)<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=73 valign=top style='width:55.1pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>2</span><span
+  style='font-family:Symbol;color:red'>&hearts;</span></p>
+  </td>
+  <td width=516 valign=top style='width:387.15pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>&Ouml;verf&ouml;ring till </span><span
+  style='font-family:Symbol'>&spades;</span><span style='font-family:Verdana'> eller </span><span
+  style='font-family:Symbol;color:red'>&diams;</span><span style='font-family:Verdana'>
+  (starkt eller svagt)</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=73 valign=top style='width:55.1pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>2</span><span
+  style='font-family:Symbol'>&spades;</span><span style='font-family:Verdana'><o:p></o:p></span></p>
+  </td>
+  <td width=516 valign=top style='width:387.15pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>&Ouml;verf&ouml;ring till b&auml;sta
+  l&aring;gf&auml;rg <o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=73 valign=top style='width:55.1pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>2NT<o:p></o:p></span></p>
+  </td>
+  <td width=516 valign=top style='width:387.15pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>Naturlig invit.<span
+  style="mso-spacerun: yes">  </span>&Ouml;ppningshanden kan med accept visa 5-korts
+  </span><span style='font-family:Symbol;color:red'>&hearts;</span><span
+  style='font-family:Verdana'>/</span><span style='font-family:Symbol'>&spades;</span><span
+  style='font-family:Verdana'> naturligt och s&auml;kerligen (men har ej hittat det
+  i min bristf&auml;lliga dokumentation) fr&aring;ga efter h&ouml;gf&auml;rg med 3</span><span
+  style='font-family:Symbol'>&clubs;</span><span style='font-family:Verdana'>
+  (Alexanderkonventionen).<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=73 valign=top style='width:55.1pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>3x<o:p></o:p></span></p>
+  </td>
+  <td width=516 valign=top style='width:387.15pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>Utg&aring;ngskrav/slaminvit
+  med minst 6-kortsf&auml;rg<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=73 valign=top style='width:55.1pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>4</span><span
+  style='font-family:Symbol'>&clubs;</span><span style='font-family:Verdana'><o:p></o:p></span></p>
+  </td>
+  <td width=516 valign=top style='width:387.15pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>Gerbers essfr&aring;ga<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=73 valign=top style='width:55.1pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>4</span><span
+  style='font-family:Symbol;color:red'>&diams;</span><span style='font-family:Verdana'><o:p></o:p></span></p>
+  </td>
+  <td width=516 valign=top style='width:387.15pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>Utg&aring;ngskrav/slaminvit
+  med minst 5-5 i </span><span style='font-family:Symbol'>&clubs;</span><span
+  style='font-family:Verdana'>/</span><span style='font-family:Symbol;
+  color:red'>&diams;</span><span style='font-family:Verdana'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=73 valign=top style='width:55.1pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>Utg&aring;ng<o:p></o:p></span></p>
+  </td>
+  <td width=516 valign=top style='width:387.15pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>Slutbud<o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoHeader style='tab-stops:65.2pt'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<table border=0 cellspacing=0 cellpadding=0 style='border-collapse:collapse;
+ mso-padding-alt:0cm 3.5pt 0cm 3.5pt'>
+ <tr>
+  <td width=591 valign=top style='width:442.95pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <h3>Fortsatt budgivning efter 1NT-2<span style='font-family:Symbol'>&clubs;</span></h3>
+  <p class=MsoNormal><span style='font-family:Verdana'>Efter h&ouml;gf&auml;rgsfr&aring;gan har
+  EFOS-spelaren m&ouml;jlighet att b&aring;de visa styrka och f&ouml;rdelning.<span
+  style="mso-spacerun: yes">  </span>Detta sker genom anv&auml;ndandet av f&ouml;ljande
+  intrikata svarsskala: <o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoHeader style='tab-stops:65.2pt'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<table border=0 cellspacing=0 cellpadding=0 width=580 style='width:434.9pt;
+ margin-left:5.75pt;border-collapse:collapse;mso-padding-alt:0cm 3.5pt 0cm 3.5pt'>
+ <tr>
+  <td width=36 valign=top style='width:27.0pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>1NT<o:p></o:p></span></p>
+  </td>
+  <td width=37 valign=top style='width:27.45pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>2</span><span
+  style='font-family:Symbol'>&clubs;</span></p>
+  </td>
+  <td width=47 valign=top style='width:35.45pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>2</span><span
+  style='font-family:Symbol;color:red'>&diams;</span><span style='font-family:Verdana'><o:p></o:p></span></p>
+  </td>
+  <td width=460 valign=top style='width:345.0pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>Ingen 4-korts </span><span
+  style='font-family:Symbol;color:red'>&hearts;</span><span style='font-family:Verdana'>/</span><span
+  style='font-family:Symbol'>&spades;</span><span style='font-family:Verdana'> samt
+  minimum (15-16)<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=36 valign=top style='width:27.0pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><span
+  style='font-family:Verdana'><o:p></o:p></span></p>
+  </td>
+  <td width=37 valign=top style='width:27.45pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><span
+  style='font-family:Verdana'><o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.45pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>2</span><span
+  style='font-family:Symbol;color:red'>&hearts;</span></p>
+  </td>
+  <td width=460 valign=top style='width:345.0pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>4-korts </span><span
+  style='font-family:Symbol;color:red'>&hearts;</span><span style='font-family:Verdana'>
+  (f&ouml;rnekar 4-korts </span><span style='font-family:Symbol'>&spades;</span><span
+  style='font-family:Verdana'>)<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=36 valign=top style='width:27.0pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+  </td>
+  <td width=37 valign=top style='width:27.45pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+  </td>
+  <td width=47 valign=top style='width:35.45pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>2</span><span
+  style='font-family:Symbol'>&spades;</span><span style='font-family:Verdana'><o:p></o:p></span></p>
+  </td>
+  <td width=460 valign=top style='width:345.0pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>4-korts </span><span
+  style='font-family:Symbol'>&spades;</span><span style='font-family:Verdana'>
+  (f&ouml;rnekar 4-korts </span><span style='font-family:Symbol;color:red'>&hearts;</span><span
+  style='font-family:Verdana'>)</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=36 valign=top style='width:27.0pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><span
+  style='font-family:Verdana'><o:p></o:p></span></p>
+  </td>
+  <td width=37 valign=top style='width:27.45pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><span
+  style='font-family:Verdana'><o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.45pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>2NT<o:p></o:p></span></p>
+  </td>
+  <td width=460 valign=top style='width:345.0pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>4-4 i </span><span
+  style='font-family:Symbol;color:red'>&hearts;</span><span style='font-family:Verdana'>-</span><span
+  style='font-family:Symbol'>&spades;</span><span style='font-family:Verdana'> samt
+  minimum (15-16).<span style="mso-spacerun: yes">  </span>Svarshanden &ouml;verf&ouml;r
+  med 3</span><span style='font-family:Symbol;color:red'>&diams;</span><span
+  style='font-family:Verdana'>/</span><span style='font-family:Symbol;
+  color:red'>&hearts;</span><span style='font-family:Verdana'> eller avslutar
+  budgivningen med 3NT. <o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=36 valign=top style='width:27.0pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><span
+  style='font-family:Verdana'><o:p></o:p></span></p>
+  </td>
+  <td width=37 valign=top style='width:27.45pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><span
+  style='font-family:Verdana'><o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.45pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>3</span><span
+  style='font-family:Symbol'>&clubs;</span><span style='font-family:Verdana'><o:p></o:p></span></p>
+  </td>
+  <td width=460 valign=top style='width:345.0pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>Ingen 4-korts </span><span
+  style='font-family:Symbol;color:red'>&hearts;</span><span style='font-family:Verdana'>/</span><span
+  style='font-family:Symbol'>&spades;</span><span style='font-family:Verdana'> samt
+  maximum (17-18).<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=36 valign=top style='width:27.0pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><span
+  style='font-family:Verdana'><o:p></o:p></span></p>
+  </td>
+  <td width=37 valign=top style='width:27.45pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><span
+  style='font-family:Verdana'><o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.45pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>3</span><span
+  style='font-family:Symbol;color:red'>&diams;</span><span style='font-family:Verdana'><o:p></o:p></span></p>
+  </td>
+  <td width=460 valign=top style='width:345.0pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>22 (54) och maximum
+  (17-18).<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=36 valign=top style='width:27.0pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><span
+  style='font-family:Verdana'><o:p></o:p></span></p>
+  </td>
+  <td width=37 valign=top style='width:27.45pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><span
+  style='font-family:Verdana'><o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.45pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>3</span><span
+  style='font-family:Symbol;color:red'>&hearts;</span><span style='font-family:Verdana'>/</span><span
+  style='font-family:Symbol'>&spades;</span></p>
+  </td>
+  <td width=460 valign=top style='width:345.0pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>Stark 5-kortsf&auml;rg samt
+  maximum (17-18).<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=36 valign=top style='width:27.0pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><span
+  style='font-family:Verdana'><o:p></o:p></span></p>
+  </td>
+  <td width=37 valign=top style='width:27.45pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><span
+  style='font-family:Verdana'><o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.45pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>3NT<o:p></o:p></span></p>
+  </td>
+  <td width=460 valign=top style='width:345.0pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>4-4 i </span><span
+  style='font-family:Symbol;color:red'>&hearts;</span><span style='font-family:Verdana'>-</span><span
+  style='font-family:Symbol'>&spades;</span><span style='font-family:Verdana'> samt
+  maximum (17-18).<span style="mso-spacerun: yes">  </span>Svarshanden &ouml;verf&ouml;r
+  med 3</span><span style='font-family:Symbol;color:red'>&diams;</span><span
+  style='font-family:Verdana'>/</span><span style='font-family:Symbol;
+  color:red'>&hearts;</span><span style='font-family:Verdana'>.<o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoHeader style='tab-stops:65.2pt'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<table border=0 cellspacing=0 cellpadding=0 style='border-collapse:collapse;
+ mso-padding-alt:0cm 3.5pt 0cm 3.5pt'>
+ <tr>
+  <td width=591 valign=top style='width:442.95pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>Efter svaren 2</span><span
+  style='font-family:Symbol;color:red'>&diams;</span><span style='font-family:Verdana'>-3</span><span
+  style='font-family:Symbol'>&clubs;</span><span style='font-family:Verdana'> &auml;r 3</span><span
+  style='font-family:Symbol;color:red'>&diams;</span><span style='font-family:Verdana'>
+  upprepad h&ouml;gf&auml;rgsfr&aring;ga, &ouml;ppningshanden visar nu extrakort i h&ouml; (3 eller 5)
+  naturligt nerifr&aring;n.<span style="mso-spacerun: yes">  </span>Mer modernt &auml;r
+  givetvis att spela med 3</span><span style='font-family:Symbol'>&clubs;</span><span
+  style='font-family:Verdana'> som upprepad h&ouml;gf&auml;rgsfr&aring;ga i de fall detta &auml;r
+  m&ouml;jligt, men en g&aring;ng i tiden anv&auml;ndes faktiskt 3</span><span
+  style='font-family:Symbol;color:red'>&diams;</span><span style='font-family:Verdana'>.<o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoHeader style='tab-stops:65.2pt'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<table border=0 cellspacing=0 cellpadding=0 width=580 style='width:434.9pt;
+ margin-left:6.15pt;border-collapse:collapse;mso-padding-alt:0cm 3.5pt 0cm 3.5pt'>
+ <tr>
+  <td width=36 valign=top style='width:27.0pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>1NT<o:p></o:p></span></p>
+  </td>
+  <td width=36 valign=top style='width:27.05pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>2</span><span
+  style='font-family:Symbol'>&clubs;</span></p>
+  </td>
+  <td width=47 valign=top style='width:35.45pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>2</span><span
+  style='font-family:Symbol;color:red'>&diams;</span><span style='font-family:Verdana'><o:p></o:p></span></p>
+  </td>
+  <td width=461 valign=top style='width:345.4pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>Ingen 4-korts </span><span
+  style='font-family:Symbol;color:red'>&hearts;</span><span style='font-family:Verdana'>/</span><span
+  style='font-family:Symbol'>&spades;</span><span style='font-family:Verdana'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=36 valign=top style='width:27.0pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><span
+  style='font-family:Verdana'><o:p></o:p></span></p>
+  </td>
+  <td width=36 valign=top style='width:27.05pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><span
+  style='font-family:Verdana'><o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.45pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>2</span><span
+  style='font-family:Symbol;color:red'>&hearts;</span></p>
+  </td>
+  <td width=461 valign=top style='width:345.4pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>4-korts </span><span
+  style='font-family:Symbol;color:red'>&hearts;</span><span style='font-family:Verdana'>
+  (f&ouml;rnekar 4-korts </span><span style='font-family:Symbol'>&spades;</span><span
+  style='font-family:Verdana'>)<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=36 valign=top style='width:27.0pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+  </td>
+  <td width=36 valign=top style='width:27.05pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+  </td>
+  <td width=47 valign=top style='width:35.45pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>2</span><span
+  style='font-family:Symbol'>&spades;</span><span style='font-family:Verdana'><o:p></o:p></span></p>
+  </td>
+  <td width=461 valign=top style='width:345.4pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>4-korts </span><span
+  style='font-family:Symbol'>&spades;</span><span style='font-family:Verdana'>
+  (f&ouml;rnekar 4-korts </span><span style='font-family:Symbol;color:red'>&hearts;</span><span
+  style='font-family:Verdana'>)</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=36 valign=top style='width:27.0pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><span
+  style='font-family:Verdana'><o:p></o:p></span></p>
+  </td>
+  <td width=36 valign=top style='width:27.05pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><span
+  style='font-family:Verdana'><o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.45pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>2NT<o:p></o:p></span></p>
+  </td>
+  <td width=461 valign=top style='width:345.4pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>4-4 i </span><span
+  style='font-family:Symbol;color:red'>&hearts;</span><span style='font-family:Verdana'>-</span><span
+  style='font-family:Symbol'>&spades;</span><span style='font-family:Verdana'> samt
+  minimum<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=36 valign=top style='width:27.0pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><span
+  style='font-family:Verdana'><o:p></o:p></span></p>
+  </td>
+  <td width=36 valign=top style='width:27.05pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><span
+  style='font-family:Verdana'><o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.45pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>3</span><span
+  style='font-family:Symbol'>&clubs;</span><span style='font-family:Verdana'><o:p></o:p></span></p>
+  </td>
+  <td width=461 valign=top style='width:345.4pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>4-4 i </span><span
+  style='font-family:Symbol;color:red'>&hearts;</span><span style='font-family:Verdana'>-</span><span
+  style='font-family:Symbol'>&spades;</span><span style='font-family:Verdana'> samt
+  maximum<o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoHeader style='tab-stops:65.2pt'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<table border=0 cellspacing=0 cellpadding=0 style='border-collapse:collapse;
+ mso-padding-alt:0cm 3.5pt 0cm 3.5pt'>
+ <tr>
+  <td width=591 valign=top style='width:442.95pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>I detta fall kan 3</span><span
+  style='font-family:Symbol'>&clubs;</span><span style='font-family:Verdana'>
+  anv&auml;ndas som upprepad h&ouml;gf&auml;rgsfr&aring;ga och 3</span><span style='font-family:
+  Symbol;color:red'>&diams;</span><span style='font-family:Verdana'> som fr&aring;ga efter
+  exakt po&auml;ngantal. Anv&auml;nder man 3</span><span style='font-family:Symbol'>&clubs;</span><span
+  style='font-family:Verdana'> som upprepad h&ouml;gf&auml;rgsfr&aring;ga kan man f&ouml;lja upp
+  svaren p&aring; denna med 4</span><span style='font-family:Symbol'>&clubs;</span><span
+  style='font-family:Verdana'> som l&aring;gf&auml;rgsfr&aring;ga/exakt f&ouml;rdelningsfr&aring;ga!<span
+  style="mso-spacerun: yes">  </span><o:p></o:p></span></p>
+  <p class=MsoNormal><span style='font-family:Verdana'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+  <h3>Fortsatt budgivning efter 1NT-2<span style='font-family:Symbol;
+  color:red'>&diams;</span>/<span style='font-family:Symbol;color:red'>&hearts;</span></h3>
+  <p class=MsoNormal><span style='font-family:Verdana'>&Ouml;ppningshanden bjuder
+  normalt rel&auml;budet men kan med maximum och bra st&ouml;d i rel&auml;f&auml;rgen v&auml;gra och
+  bjuda den alternativa rel&auml;f&auml;rgen (d v s l&aring;gf&auml;rgen).<span style="mso-spacerun:
+  yes">  </span>Efter rel&auml;svar bjuder svarshanden sang som invit/utg&aring;ngskrav
+  med exakt 5-korts &ouml;verf&ouml;ringsf&auml;rg eller n&auml;rmaste f&auml;rgbud som fortsatt
+  &ouml;verf&ouml;ring.<span style="mso-spacerun: yes">  </span>H&ouml;jning av &ouml;verf&ouml;ringsf&auml;rgen
+  &auml;r invit med 6-kortsf&auml;rg och hopp till 4-l&auml;get &auml;r f&auml;rgfr&aring;gebud med
+  &ouml;verf&ouml;ringsf&auml;rgen som trumf.<span style="mso-spacerun: yes">  </span><o:p></o:p></span></p>
+  <p class=MsoNormal><span style='font-family:Verdana'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+  <h3>Fortsatt budgivning efter 1NT-2<span style='font-family:Symbol'>&spades;</span></h3>
+  <p class=MsoNormal><span style='font-family:Verdana'>Svarsbudet 2</span><span
+  style='font-family:Symbol'>&spades;</span><span style='font-family:Verdana'> ber
+  &ouml;ppningshanden att preferera l&aring;gf&auml;rg, &ouml;ppningshanden g&ouml;r detta naturligt
+  eller inviterar mot 3NT med 2NT (lovar rej&auml;la h&aring;ll i </span><span
+  style='font-family:Symbol;color:red'>&hearts;</span><span style='font-family:Verdana'>/</span><span
+  style='font-family:Symbol'>&spades;</span><span style='font-family:Verdana'>), visar
+  maximum och bra st&ouml;d i </span><span style='font-family:Symbol'>&clubs;</span><span
+  style='font-family:Verdana'>/</span><span style='font-family:Symbol;
+  color:red'>&diams;</span><span style='font-family:Verdana'>) genom att bjuda 3</span><span
+  style='font-family:Symbol;color:red'>&hearts;</span><span style='font-family:Verdana'>/</span><span
+  style='font-family:Symbol'>&spades;</span><span style='font-family:Verdana'>) eller
+  bra st&ouml;tta i b&auml;gge l&aring;gf&auml;rgerna genom ett direkt 3NT bud.<o:p></o:p></span></p>
+  <p class=MsoNormal><span style='font-family:Verdana'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+  <p class=MsoNormal><i><span style='font-family:Verdana'>Fortsatt budgivning
+  efter 1NT-3</span></i><i><span style='font-family:Symbol'>&clubs;</span></i><i><span
+  style='font-family:Verdana'>/</span></i><i><span style='font-family:Symbol;
+  color:red'>&diams;</span></i><i><span style='font-family:Verdana'>/</span></i><i><span
+  style='font-family:Symbol;color:red'>&hearts;</span></i><i><span style='font-family:
+  Verdana'>/</span></i><i><span style='font-family:Symbol'>&spades;</span></i><i><span
+  style='font-family:Verdana'><o:p></o:p></span></i></p>
+  <p class=MsoNormal><span style='font-family:Verdana'>Hoppen till 3 i f&auml;rg
+  etablerar trumf och &auml;r minst utg&aring;ngskrav.<span style="mso-spacerun: yes"> 
+  </span>&Ouml;ppningshanden bjuder 3NT med s&auml;mre st&ouml;d &auml;n Hx/xxx, 4 i trumf med bra
+  trumfst&ouml;d och d&aring;liga slamkort eller kontrollbjuder ny f&auml;rg.<o:p></o:p></span></p>
+  <p class=MsoNormal><span style='font-family:Verdana'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+  <p class=MsoNormal><i><span style='font-family:Verdana'>Fortsatt budgivning
+  efter 1NT-4</span></i><i><span style='font-family:Symbol;color:red'>&diams;</span></i><i><span
+  style='font-family:Verdana'><o:p></o:p></span></i></p>
+  <p class=MsoNormal><span style='font-family:Verdana'>Efter det att
+  svarshanden upplyst om en minst utg&aring;ngskr&auml;vande hand med 5-5 i </span><span
+  style='font-family:Symbol'>&clubs;/<span style='color:red'>&diams; </span></span><span
+  style='font-family:Verdana'>bjuder &ouml;ppningshanden enligt f&ouml;ljande mindre
+  v&auml;lgenomt&auml;nkta schema<o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoHeader style='tab-stops:65.2pt'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<table border=0 cellspacing=0 cellpadding=0 width=590 style='width:442.25pt;
+ margin-left:2.4pt;border-collapse:collapse;mso-padding-alt:0cm 3.5pt 0cm 3.5pt'>
+ <tr>
+  <td width=49 valign=top style='width:36.55pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>4</span><span
+  style='font-family:Symbol;color:red'>&hearts;</span><span style='font-family:Verdana'>/</span><span
+  style='font-family:Symbol'>&spades;</span><span style='font-family:Verdana'><o:p></o:p></span></p>
+  </td>
+  <td width=541 valign=top style='width:405.7pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>Ess i bjuden f&auml;rg, &Ouml;H
+  har dessutom minst EE, EK, KKD i </span><span style='font-family:Symbol'>&clubs;</span><span
+  style='font-family:Verdana'>/</span><span style='font-family:Symbol;
+  color:red'>&diams;</span><span style='font-family:Verdana'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=49 valign=top style='width:36.55pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>4N<o:p></o:p></span></p>
+  </td>
+  <td width=541 valign=top style='width:405.7pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>Odefinierat!<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=49 valign=top style='width:36.55pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>5</span><span
+  style='font-family:Symbol'>&clubs;</span><span style='font-family:Verdana'>/</span><span
+  style='font-family:Symbol;color:red'>&diams;</span><span style='font-family:Verdana'><o:p></o:p></span></p>
+  </td>
+  <td width=541 valign=top style='width:405.7pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>Avl&auml;gg i &ouml;ppningshandens
+  b&auml;sta l&aring;gf&auml;rg<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=49 valign=top style='width:36.55pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>6</span><span
+  style='font-family:Symbol'>&clubs;</span><span style='font-family:Verdana'>/</span><span
+  style='font-family:Symbol;color:red'>&diams;</span><span style='font-family:Verdana'><o:p></o:p></span></p>
+  </td>
+  <td width=541 valign=top style='width:405.7pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>B&auml;sta l&aring;gf&auml;rg med minst
+  EEH, EKH eller KDKD i </span><span style='font-family:Symbol'>&clubs;</span><span
+  style='font-family:Verdana'>/</span><span style='font-family:Symbol;
+  color:red'>&diams;</span><span style='font-family:Verdana'><o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoHeader style='tab-stops:65.2pt'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<table border=0 cellspacing=0 cellpadding=0 style='border-collapse:collapse;
+ mso-padding-alt:0cm 3.5pt 0cm 3.5pt'>
+ <tr>
+  <td width=591 valign=top style='width:442.95pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <h3>EFOS 2NT budgivning</h3>
+  <h3><span style='font-style:normal'>EFOS 2NT budgivning skiljer sig en aning
+  fr&aring;n 1NT-budgivningen.<span style="mso-spacerun: yes">  </span>Svarsbuden och
+  den fortsatta budgivningen &auml;r<o:p></o:p></span></h3>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoHeader style='tab-stops:65.2pt'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<table border=0 cellspacing=0 cellpadding=0 width=583 style='width:437.2pt;
+ margin-left:5.75pt;border-collapse:collapse;mso-padding-alt:0cm 3.5pt 0cm 3.5pt'>
+ <tr>
+  <td width=44 valign=top style='width:33.2pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>3</span><span
+  style='font-family:Symbol'>&clubs;</span><span style='font-family:Verdana'><o:p></o:p></span></p>
+  </td>
+  <td width=539 valign=top style='width:404.0pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>Fr&aring;ga efter 5-korts </span><span
+  style='font-family:Symbol;color:red'>&hearts;</span><span style='font-family:Verdana'>/</span><span
+  style='font-family:Symbol'>&spades;. </span><span style='font-family:Verdana'>&Ouml;H
+  bjuder 3</span><span style='font-family:Symbol;color:red'>&diams;</span><span
+  style='font-family:Verdana'> utan 5-korts </span><span style='font-family:
+  Symbol;color:red'>&hearts;</span><span style='font-family:Verdana'>/</span><span
+  style='font-family:Symbol'>&spades;</span><span style='font-family:Verdana'> men med
+  n&aring;gon eller n&aring;gra 4-korts h&ouml;gf&auml;rger, med 5-korts </span><span
+  style='font-family:Symbol;color:red'>&hearts;</span><span style='font-family:Verdana'>/</span><span
+  style='font-family:Symbol'>&spades; <span style="mso-spacerun: yes"> </span></span><span
+  style='font-family:Verdana'>bjuds h&ouml;gf&auml;rgen.<span style="mso-spacerun: yes"> 
+  </span>Utan vare sig 4 eller 5-korts </span><span style='font-family:Symbol;
+  color:red'>&hearts;</span><span style='font-family:Verdana'>/</span><span
+  style='font-family:Symbol'>&spades; </span><span style='font-family:Verdana'>svarar
+  &ouml;ppningshanden 3NT.<span style="mso-spacerun: yes">  </span>Efter svaret 3</span><span
+  style='font-family:Symbol;color:red'>&diams;</span><span style='font-family:Verdana'>
+  bjuder svarshanden 3</span><span style='font-family:Symbol;color:red'>&hearts;</span><span
+  style='font-family:Verdana'>/</span><span style='font-family:Symbol'>&spades;</span><span
+  style='font-family:Verdana'> omv&auml;nt (d v s 3</span><span style='font-family:
+  Symbol;color:red'>&hearts;</span><span style='font-family:Verdana'> med 4-korts </span><span
+  style='font-family:Symbol'>&spades;</span><span style='font-family:Verdana'>) eller
+  3NT som slutbud.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=44 valign=top style='width:33.2pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>3</span><span
+  style='font-family:Symbol;color:red'>&diams;</span><span style='font-family:Verdana'><o:p></o:p></span></p>
+  </td>
+  <td width=539 valign=top style='width:404.0pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>Visar minst (54) i </span><span
+  style='font-family:Symbol;color:red'>&hearts;</span><span style='font-family:Verdana'>/</span><span
+  style='font-family:Symbol'>&spades; </span><span style='font-family:Verdana'>eller
+  exakt 5-3 i </span><span style='font-family:Symbol;color:red'>&hearts;</span><span
+  style='font-family:Verdana'>-</span><span style='font-family:Symbol'>&spades;</span><span
+  style='font-family:Verdana'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=44 valign=top style='width:33.2pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>3</span><span
+  style='font-family:Symbol;color:red'>&hearts;</span></p>
+  </td>
+  <td width=539 valign=top style='width:404.0pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>6-korts </span><span
+  style='font-family:Symbol;color:red'>&hearts;</span><span style='font-family:Verdana'>
+  (eventuellt 5-korts med max 2-korts </span><span style='font-family:Symbol'>&spades;</span><span
+  style='font-family:Verdana'>)<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=44 valign=top style='width:33.2pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>3</span><span
+  style='font-family:Symbol'>&spades;</span><span style='font-family:Verdana'><o:p></o:p></span></p>
+  </td>
+  <td width=539 valign=top style='width:404.0pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>6-korts </span><span
+  style='font-family:Symbol'>&spades;</span><span style='font-family:Verdana'>
+  (eventuellt 5-korts med max 2-korts </span><span style='font-family:Symbol;
+  color:red'>&hearts;</span><span style='font-family:Verdana'>)</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=44 valign=top style='width:33.2pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>3NT<o:p></o:p></span></p>
+  </td>
+  <td width=539 valign=top style='width:404.0pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>5-korts </span><span
+  style='font-family:Symbol'>&spades;</span><span style='font-family:Verdana'> och
+  3-korts </span><span style='font-family:Symbol;color:red'>&hearts;</span><span
+  style='font-family:Verdana'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=44 valign=top style='width:33.2pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>4</span><span
+  style='font-family:Symbol'>&clubs;</span><span style='font-family:Verdana'><o:p></o:p></span></p>
+  </td>
+  <td width=539 valign=top style='width:404.0pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>Essfr&aring;ga<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=44 valign=top style='width:33.2pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>4</span><span
+  style='font-family:Symbol;color:red'>&diams;</span><span style='font-family:Verdana'><o:p></o:p></span></p>
+  </td>
+  <td width=539 valign=top style='width:404.0pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>&Ouml;verf&ouml;ring<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=44 valign=top style='width:33.2pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>4</span><span
+  style='font-family:Symbol;color:red'>&hearts;</span></p>
+  </td>
+  <td width=539 valign=top style='width:404.0pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>&Ouml;verf&ouml;ring<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=44 valign=top style='width:33.2pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>4</span><span
+  style='font-family:Symbol'>&spades;</span><span style='font-family:Verdana'><o:p></o:p></span></p>
+  </td>
+  <td width=539 valign=top style='width:404.0pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>Stark l&aring;gf&auml;rgshand med
+  slamintresse<o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoHeader style='tab-stops:65.2pt'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<table border=0 cellspacing=0 cellpadding=0 style='border-collapse:collapse;
+ mso-padding-alt:0cm 3.5pt 0cm 3.5pt'>
+ <tr>
+  <td width=591 valign=top style='width:442.95pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <h3>EFOS Defensivbudgivning</h3>
+  <p class=MsoNormal><span style='font-family:Verdana'>EFOS defensivbudgivning
+  baseras p&aring; idén att den egna sidan s&aring; snart som m&ouml;jligt skall in i
+  budgivningen; f&ouml;r att citera Lillieh&ouml;&ouml;k: <o:p></o:p></span></p>
+  <p class=MsoBodyTextIndent>S&aring; snart andra hand har en rimlig m&ouml;jlighet att
+  avgiva ett bud, m&aring;ste han d&auml;rf&ouml;r g&ouml;ra det</p>
+  <p class=MsoNormal><span style='font-family:Verdana'>En EFOS-spelare har
+  s&aring;lunda mindre orsak att h&aring;lla ig&aring;ng budgivningen i sista hand (eller att agera
+  i en aktiv budgivning) &auml;n de som exempelvis baserar sina inkliv p&aring; bra f&auml;rger
+  - &aring;tminstone om m&aring;let &auml;r ett delkontrakt i en f&ouml;r andra hand bjudbar f&auml;rg p&aring;
+  1-l&auml;get.<o:p></o:p></span></p>
+  <p class=MsoNormal><span style='font-family:Verdana'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+  <p class=MsoNormal><span style='font-family:Verdana'>En grov principskiss av
+  EFOS defensivbudgivning:<o:p></o:p></span></p>
+  <p class=MsoNormal><span style='font-family:Verdana'><span
+  style="mso-spacerun: yes">  </span><o:p></o:p></span></p>
+  <ul style='margin-top:0cm' type=disc>
+   <li class=MsoNormal style='mso-list:l5 level1 lfo7;tab-stops:list 36.0pt'><span
+       style='font-family:Verdana'>Inkliv p&aring; 1-l&auml;get (i andra hand) visar Hxx
+       eller b&auml;ttre samt en styrka p&aring; minst 9 punkter.<o:p></o:p></span></li>
+   <li class=MsoNormal style='mso-list:l5 level1 lfo7;tab-stops:list 36.0pt'><span
+       style='font-family:Verdana'>Inkliv p&aring; 2-l&auml;get &auml;r alltid baserade p&aring; bra
+       f&auml;rg (minst stark 5+kortsf&auml;rg)<o:p></o:p></span></li>
+   <li class=MsoNormal style='mso-list:l5 level1 lfo7;tab-stops:list 36.0pt'><span
+       style='font-family:Verdana'>D &auml;r UD och kan gentemot 1</span><span
+       style='font-family:Symbol'>&spades;</span><span style='font-family:Verdana'>
+       avges p&aring; svaga kort men lovar mot &ouml;vriga 1-&ouml;ppningar &ouml;ppningsstyrka.<o:p></o:p></span></li>
+   <li class=MsoNormal style='mso-list:l5 level1 lfo7;tab-stops:list 36.0pt'><span
+       style='font-family:Verdana'>Redubbelt &auml;r alltid SOS.<o:p></o:p></span></li>
+   <li class=MsoNormal style='mso-list:l5 level1 lfo7;tab-stops:list 36.0pt'><span
+       style='font-family:Verdana'>1NT-inklivet visar 15-18 och f&ouml;rnekar bra
+       4+korts h&ouml;gf&auml;rg.<o:p></o:p></span></li>
+   <li class=MsoNormal style='mso-list:l5 level1 lfo7;tab-stops:list 36.0pt'><span
+       style='font-family:Verdana'>2NT-inklivet visar tv&aring; l&auml;gsta objudna.<o:p></o:p></span></li>
+   <li class=MsoNormal style='mso-list:l5 level1 lfo7;tab-stops:list 36.0pt'><span
+       style='font-family:Verdana'>Hoppinkliv visar 6-kortsf&auml;rg och f&ouml;rnekar
+       &ouml;ppningsstyrka.<o:p></o:p></span></li>
+  </ul>
+  <p class=MsoNormal><span style='font-family:Verdana'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+  <p class=MsoNormal><span style='font-family:Verdana'>Den fortsatta
+  budgivningen inneh&aring;ller inget v&auml;senskilt fr&aring;n vad numera anses vara
+  standard.<span style="mso-spacerun: yes">  </span>Ett par ord om budgivningen
+  efter 1-l&auml;gesinkliv kan dock vara p&aring; sin plats.<o:p></o:p></span></p>
+  <p class=MsoNormal><span style='font-family:Verdana'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+  <p class=MsoNormal><span style='font-family:Verdana'>Efter 1-l&auml;gesinkliv
+  lovar enkelh&ouml;jningar minst 4-kortsst&ouml;d och dubbla (eller h&ouml;gre) h&ouml;jningar
+  lovar 5+st&ouml;d.<span style="mso-spacerun: yes">  </span>B&aring;de enkel och
+  dubbelh&ouml;jningen &auml;r konstruktiva, d v s l&aring;ngt ifr&aring;n &quot;moderna&quot;.<span
+  style="mso-spacerun: yes">  </span>Bjuder inklivshandens partner 1NT lovar
+  detta inte h&aring;ll utan &auml;r mer styrkevisande (dock okrav).<span
+  style="mso-spacerun: yes">  </span>Visar inklivshanden 2 f&auml;rger visar en
+  preferens till inklivsf&auml;rgen till&auml;ggsv&auml;rden.<span style="mso-spacerun: yes"> 
+  </span>&Ouml;verbud i &ouml;ppningsf&auml;rgen &auml;r generellt kravbud i de flesta l&auml;gen. <o:p></o:p></span></p>
+  <p class=MsoNormal><span style='font-family:Verdana'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+  <p class=MsoHeader style='tab-stops:65.2pt'><b><span style='font-size:8.0pt;
+  font-family:Verdana'>Variationer: </span></b><span style='font-family:Verdana'>Uppmanas
+  l&auml;sarna att bidra med!<o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoHeader style='tab-stops:65.2pt'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<table border=0 cellspacing=0 cellpadding=0 width=591 style='width:442.95pt;
+ border-collapse:collapse;mso-padding-alt:0cm 3.5pt 0cm 3.5pt'>
+ <tr>
+  <td width=151 valign=top style='width:4.0cm;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><b><span style='font-size:8.0pt;font-family:Verdana'>L&auml;nkar:<o:p></o:p></span></b></p>
+  </td>
+  <td width=439 valign=top style='width:329.55pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><span
+  style='font-family:Verdana'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=151 valign=top style='width:4.0cm;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><b><span style='font-size:8.0pt;font-family:Verdana'>Version
+  &amp; datum:<o:p></o:p></span></b></p>
+  </td>
+  <td width=439 valign=top style='width:329.55pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>1 - <span
+  style='mso-field-code:"DATE  \\* MERGEFORMAT"'>2002-02-07</span><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=151 valign=top style='width:4.0cm;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><b><span style='font-size:8.0pt;font-family:Verdana'>Beskrivet
+  av:<o:p></o:p></span></b></p>
+  </td>
+  <td width=439 valign=top style='width:329.55pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span style='font-family:Verdana'>Christer Enkvist<o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoHeader style='tab-stops:65.2pt'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+</div>
+
+</body>
+
+</html>
