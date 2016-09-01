@@ -1,0 +1,103 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!--TOOLBAR_START--><!--TOOLBAR_EXEMPT--><!--TOOLBAR_END--><HTML><HEAD><TITLE>SysKon Filarkiv</TITLE>
+<META content="text/html; charset=windows-1252" http-equiv=Content-Type>
+<META content=repeat.HTM name=FILENAME>
+<META content="Microsoft FrontPage 4.0" name=GENERATOR></HEAD>
+<BODY topMargin=0>
+<FONT face=verdana,arial,helvetica size=2>
+<OBJECT classid=clsid:333C7BC4-460F-11D0-BC04-0080C7055A83 height=0 id=quotelist 
+width=0 border="0"><PARAM NAME="DataURL" VALUE="../f/filarkiv_ms.txt"><PARAM NAME="UseHeader" VALUE="True"></OBJECT>
+</FONT>
+<table border="0" width="100%">
+  <tr>
+    <td width="50%">
+    <font face="verdana,arial,helvetica" size="2"><b>System Modern Standard</b></font></td>
+    <FONT face=verdana,arial,helvetica size=2>
+    <td width="50%">
+    </td>
+    </tr>
+  <tr>
+    <td width="100%" colspan="2"><img border="0" src="../bilder/longline.gif" width="744" height="1"></td>
+    </tr>
+  </table>
+<TABLE border=0 dataSrc=#quotelist id=elemtbl widht="100%">
+  <THEAD>
+  <TR>
+    <TD><FONT color=#0000ff><B><U>
+      <DIV id=Grupp>
+      <P>Grupp</U></B></FONT></P></DIV></TD>
+    <TD></TD>
+    <TD><FONT color=#0000ff><B><U>
+      <DIV id=Namn>
+      <P>Namn</U></B></FONT></P></DIV></TD>
+    <TD></TD>
+    <TD><FONT color=#0000ff><B><U>
+      <DIV id=Data1>
+      <P></U></B></FONT></P></DIV></TD>
+    <TD></TD>
+
+	<TD><FONT color=#0000ff><B><U>
+      <DIV id=Data2>
+      <P></U></B></FONT></P></DIV></TD>
+    <TD></TD>
+
+    <TD><FONT color=#0000ff><B><U>
+      <DIV id=Data>
+      <P>Prickar</U></B></FONT></P></DIV></TD>
+    <TD></TD>
+    <TD><FONT color=#0000ff><B><U>
+      <DIV id=Link>
+      <P>Data</U></B></FONT></P></DIV></TD></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TD align=left><SPAN dataFld=Grupp></SPAN></TD>
+    <TD>&nbsp;</TD>
+    <TD align=left>
+    	<A dataFld=Link>
+      <DIV dataFld=Namn></DIV></TD>
+    <TD>&nbsp;</TD>
+    <TD align=left>
+    	<A dataFld=Link1>
+      <DIV dataFld=Data1></DIV></TD>
+    <TD>&nbsp;</TD>
+    <TD align=left>
+    	<A dataFld=Link2>
+      <DIV dataFld=Data2></DIV></TD>
+    <TD>&nbsp;</TD>
+    <TD align=center>
+      <DIV dataFld=Data></DIV></TD>
+    <TD>&nbsp;</TD>
+    <TD align=left>
+      <DIV dataFld=Linkdata></DIV></A></TD></TR></TBODY></TABLE>
+<SCRIPT language=JavaScript>
+
+function symbolClick() {
+  quotelist.SortColumn = "Grupp";
+  quotelist.Reset();
+}
+
+Grupp.onclick = symbolClick;
+
+function quoteClick() {
+  quotelist.SortColumn = "Namn";
+  quotelist.Reset();
+}
+
+Namn.onclick = quoteClick;
+
+function changeOnclick() {
+  quotelist.SortColumn = "Data";
+  quotelist.Reset();
+}
+
+Data.onclick = changeOnclick;
+
+function volumeOnclick() {
+  quotelist.SortColumn = "Linkdata";
+  quotelist.Reset();
+}
+
+Link.onclick = volumeOnclick;
+
+</SCRIPT>
+</FONT></BODY></HTML>
